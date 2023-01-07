@@ -1,0 +1,66 @@
+﻿@model IEnumerable<WebBanHangOnline.Models.ShoppingCartItem>
+@using WebBanHangOnline.Common
+
+<table class="table">
+    <thead>
+        <tr class="text-center">
+            <th> STT</th>
+            <th> Ảnh Sản Phẩm</th>
+            <th> Tên Sản Phẩm</th>
+            <th> Danh Mục</th>
+            <th>Giá </th>
+            <th width="100">Số Lượng</th>
+            <th>Thành Tiền</th>
+            <th style="width:160px">Actions </th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null && Model.Any())
+        {
+            var i = 1;
+            var tongTien = decimal.Zero;
+            foreach (var item in Model)
+            {
+                tongTien += item.TotalPrice;
+                <tr class="text-center" id="trow_@item.ProductId">
+                    <td>@i</td>
+                    <td><img style="width:60px" src="@item.ProductImg" alt="@item.ProductName" /> </td>
+                    <td><a href="/chi-tiet-san-pham/@item.Alias-p@(item.ProductId)">@item.ProductName</a></td>
+                    <td>@item.CategoryName</td>
+                    <td>@Common.FormatNumber(item.Price, 0)</td>
+                    <td ><input class="form-control" type="number" value="@item.Quantity" min="1"id="Quantity_@item.ProductId" /> </td>
+                    <td>@Common.FormatNumber(item.TotalPrice, 0)</td>
+                    <td>
+                        <a href="#" data-id="@item.ProductId" class="btn btn sm btn-primary btnUpdate"><i class="fa fa-check"></i></a>
+                        <a href="#" data-id="@item.ProductId" class="btn btn sm btn-danger btnDelete "><i class="fa fa-trash"></i></a>
+
+                    </td>
+                </tr>
+                i++;
+            }
+            <tr>
+                <th colspan="6" class="text-right">Tổng Tiền</th>
+                <th></th>
+                <th class="text-center">@Common.FormatNumber(tongTien, 2)</th>
+            </tr>
+            <tr>
+                <th  colspan="8" class=" text-center">
+                    <div style="text-align:right;">
+                        <a href="/thanh-toan" class="btn btn sm btn-primary ">Thanh Toán</a>
+                        <a href="#" class="btn btn sm btn-danger btnDeleteAll ">Delete All</a>
+                    </div>
+                    
+                </th>
+            </tr>
+
+        }
+        else
+        {
+            <tr>
+                <td colspan="4">không có bản ghi nào!</td>
+            </tr>
+
+        }
+    </tbody>
+</table>
+

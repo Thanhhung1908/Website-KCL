@@ -1,0 +1,4677 @@
+﻿
+
+
+/** {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+}
+
+#owl-carousel {
+    display: flex;
+}*/
+
+/* start header */
+/*.modal-header .btn-close {
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.modal-body .btn-primary {
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: flex;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    z-index: 9999999999999999;
+}
+
+    header .navbar {
+        margin-top: -8px;
+    }
+
+.navbar .container-fluid {
+    background-color: #001F11;
+}
+
+.sticky .navbar .container-fluid {
+    background-color: #FFFFFF;*/
+    /* margin-top: 35px; */
+/*}
+
+.sticky .navbar a {
+    color: #055235;
+}
+
+.navbar-brand {
+    margin-left: 50px;
+}
+
+
+header .logo {
+    width: 85px;
+    height: 65px;
+}
+
+.navbar-nav .nav-link.active {
+    color: #F5A21F;
+    background: #055235;
+    width: 100%;
+    cursor: pointer;
+}
+
+
+
+header .navbar li {
+    list-style: none;
+    cursor: pointer;
+    padding-left: 25px;
+}
+
+
+    header .navbar li a {
+        padding: 30px;
+        margin-left: 20px;
+        font-family: 'Maven Pro';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 23px;
+        color: #fff;
+        text-decoration: none;
+    }
+
+        header .navbar li a:hover {
+            color: #F5A21F;
+            background: #055235;
+        }
+
+
+
+.lh {
+    text-decoration: none;
+    color: #fff;
+}
+
+    .lh:hover {
+        color: #fff;
+    }
+
+header .navbar button {
+    align-items: center;
+    padding: 16px 20px;
+    gap: 10px;
+    background: #F5A21F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px 8px 8px 30px;
+    transform: rotate(0.73deg);
+}
+
+    header .navbar button:hover {
+        background: #055235;
+        color: #fff;
+    }*/
+
+/* end header */
+
+/* start home */
+
+/*.home {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+}
+
+    .home .contentHome {
+        width: 100%;
+        margin-top: 80px;
+    }
+
+.contentHome .owl-nav {
+    display: none;
+}
+
+.contentHome .owl-dots {
+    display: none;
+}*/
+
+
+/* .home .btnB img {
+    width: 30px;
+    height: 30px;
+} */
+/* .home .contentHome h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    padding: 0px;
+    gap: 60px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+} */
+
+/* .home .contentHome p {
+    font-family: 'Maven Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    color: #FFFFFF;
+    word-wrap: break-word;
+}
+
+.home .contentHome .more {
+    display: flex;
+    margin-top: 200px;
+    justify-content: center;
+    transition: all .5s ease 0s;
+}
+
+.home .contentHome .more h4 {
+    margin-top: 5px;
+    color: #F5A21F;
+    transition: all .5s ease 0s;
+}
+
+.home .contentHome .more .btnB {
+    margin-left: 20px;
+} */
+
+/* end home */
+
+/* start product */
+/*.product {
+    margin-top: 50px;
+    width: 100%;
+    height: 600px;
+}
+
+    .product .owl-nav {
+        display: none;
+    }
+
+    .product .owl-dots {
+        display: none;
+    }
+
+    .product .titleProduct h1 {
+        font-family: 'Maven Pro';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 85px;
+        letter-spacing: -0.02em;
+        color: #055235;
+    }
+
+    .product .titleProduct .title {
+        margin-left: 140px;*/
+        /* mục đã sửa */
+    /*}
+
+
+    .product .titleProduct img {
+        width: 150px;
+        transform: matrix(1, 0.01, -0.04, 1, 0, 0);
+    }
+
+    .product .contentProduct {
+        width: 100%;
+    }
+
+        .product .contentProduct .contentLeft {
+            width: 500px;
+            margin-left: 160px;
+            float: left;
+        }
+
+        .product .contentProduct .contentRight {
+            width: 500px;
+            float: right;
+            margin-right: 200px;
+        }
+
+        .product .contentProduct .btnSPL .carousel-control-prev-icon {
+            margin-right: 100px;
+        }
+
+        .product .contentProduct .contentLeft h2 {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 35px;
+            line-height: 40px;
+            letter-spacing: -0.02em;
+            color: #055235;
+        }
+
+        .product .contentProduct .contentLeft h6 {
+            font-family: 'Maven Pro';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 23px;
+            color: rgba(0, 0, 0, 0.5);
+            text-align: center;
+        }
+
+        .product .contentProduct .contentLeft p {
+            font-family: 'Maven Pro';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 25px;
+            line-height: 30px;
+            display: flex;
+            align-items: flex-end;
+            text-indent: 5px;
+            text-align: justify;
+            color: #001F11;
+        }
+
+        .product .contentProduct img {
+            width: 200px;
+            height: 400px;
+        }
+
+.btnDetail {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+    gap: 10px;
+    width: 100px;
+    height: 25px;
+    background: #247032;
+    border-radius: 10px;
+    margin-right: 50px;
+    float: right;
+    color: #FFFFFF;
+}
+
+    .btnDetail img {
+        width: 15px;
+        height: 10px;
+    }*/
+
+
+/* end product */
+
+
+/* start solution */
+/*.solution {
+    width: 100%;
+    height: 600px;
+    margin-top: 50px;
+}
+
+    .solution .titleSolution {
+        display: flex;
+    }
+
+        .solution .titleSolution .title {
+            margin-left: 140px;
+        }
+
+            .solution .titleSolution .title h1 {
+                font-family: 'Maven Pro';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 35px;
+                line-height: 45px;
+                letter-spacing: -0.02em;
+                color: #055235;
+            }
+
+            .solution .titleSolution .title img {
+                width: 150px;
+            }
+
+        .solution .titleSolution .content {
+            font-family: 'Maven Pro';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 30px;
+            display: flex;
+            align-items: flex-end;
+            text-indent: 5px;
+            width: 65%;
+            margin-left: 50px;
+            color: #001F11;
+        }
+
+.wrapper {
+    margin-left: 80px;
+    width: 100%;
+}
+
+
+.parent {
+    width: 21%;
+    margin: 20px;
+    height: 300px;
+    border: 1px solid blue;
+    overflow: hidden;*/
+    /* position: relative; */
+    /* float: left; */
+    /*display: inline-block;
+    cursor: pointer;
+}
+
+.child {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}*/
+
+/* Several different images */
+/*.bg-one {
+    width: 100%;
+    background-image: url(../Images/Daotaonhanluc.png);
+}
+
+.bg-two {
+    width: 100%;
+    background-image: url(../Images/web.png);
+}
+
+.bg-three {
+    width: 100%;
+    background-image: url(../Images/khaosat.png);
+}
+
+.bg-four {
+    width: 100%;
+    background-image: url(../Images/IOT.png);
+}
+
+.bg-five {
+    width: 100%;
+    background-image: url(../Images/tuvan.png);
+}
+
+.bg-six {
+    width: 100%;
+    background-image: url(../Images/Phanphoithietbi.png);
+}
+
+.bg-seven {
+    width: 100%;
+    background-image: url(../Images/Phanphoiphanmem.png);
+}
+
+.bg-eight {
+    width: 100%;
+    background-image: url(../Images/thicong.png);
+}
+
+
+.wrapper a {
+    display: none;
+    font-size: 25px;
+    color: #ffffff !important;
+    font-family: sans-serif;
+    text-align: center;
+    text-decoration: none;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.parent:hover .child,
+.parent:focus .child {
+    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+    .parent:hover .child:before,
+    .parent:focus .child:before {
+        display: block;
+    }
+
+.parent:hover a,
+.parent:focus a {
+    display: block;
+}
+
+.child:before {
+    content: "";
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(52, 73, 94, 0.75);
+}
+
+
+
+.solution button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+    gap: 10px;
+    width: 100px;
+    height: 25px;
+    background: #247032;
+    border-radius: 10px;
+    margin-right: 50px;
+    float: right;
+    color: #FFFFFF;
+}
+
+    .solution button img {
+        width: 15px;
+        height: 10px;
+    }*/
+
+/* end solution */
+
+/* start news */
+
+/*.news {
+    width: 100%;
+    height: 500px;
+    margin-top: 250px;
+}
+
+    .news .owl-nav {
+        display: none;
+    }
+
+    .news .owl-dots {
+        display: none;
+    }
+
+    .news .titleNews .title {
+        margin-left: 140px;
+    }
+
+        .news .titleNews .title h1 {
+            font-family: 'Maven Pro';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 35px;
+            line-height: 45px;
+            letter-spacing: -0.02em;
+            color: #055235;
+        }
+
+        .news .titleNews .title img {
+            width: 150px;
+        }
+
+    .news .titleNews .content {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+.content .item {
+    margin-top: 50px;
+}*/
+
+
+    /* bổ sung lại đoạn này từ*/
+
+    /*.content .item .card img {
+        transition: all 0.3s ease-in-out;
+    }
+
+    .content .item .card:hover img {
+        transform: scale(1.1);
+    }
+
+    .content .item .groupB {
+        overflow: hidden;
+    }
+
+    .content .item .card img {
+        transition: all 0.3s ease-in-out;
+    }
+
+    .content .item .card:hover img {
+        transform: scale(1.1);
+    }*/
+
+    /* đeen day */
+
+
+    /*.content .item .box {*/
+        /* border: 1px solid #055235; */
+        /*border-radius: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 0px;
+        gap: 10px;
+        width: 100px;
+        color: #055235;
+        position: absolute;
+        z-index: 9999999;
+    }
+
+        .content .item .box p {
+            background: #FFFFFF;
+            border: 1px solid #055235;
+            border-radius: 20px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 10px 0px;
+            gap: 10px;
+            width: 90px;
+            color: #055235;
+            position: absolute;
+            z-index: 9999;
+            left: -30%;
+            top: -20px;
+        }
+
+    .content .item .groupB {
+        margin-left: 30px;
+    }
+
+
+.news .content {
+    display: flex;
+}
+
+.news .item .card {
+    width: 500px;
+}
+
+    .news .item .card a {
+        text-decoration: none;
+        color: black;
+    }
+
+        .news .item .card a:hover {
+            color: #055235;
+        }*/
+
+/* end news */
+
+
+/* start customer */
+
+/*.customer {
+    margin-top: 150px;
+}
+
+    .customer .title h1 {
+        font-family: 'Maven Pro';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 50px;
+        text-align: left;
+        margin-left: 140px;
+        color: #055235;
+    }
+
+    .customer .title img {
+        margin-left: 140px;
+        width: 300px;
+    }
+
+    .customer .content .btn {
+        margin-top: 100px;
+    }
+
+    .customer .content .btnL img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .customer .content .btnR img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .customer .content {
+        display: flex;
+        margin-top: 100px;
+        margin-left: 200px;
+    }
+
+    .customer .owl-nav {
+        display: none;
+    }
+
+    .customer .owl-dots {
+        display: none;
+    }
+
+    .customer .content .logoCustomer img {
+        width: 150px;
+        height: 200px;
+        margin: 15px 80px;
+    }
+
+    .customer .benhvien p {
+        font-family: 'Maven Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 50px;
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        color: #001F11;
+    }
+
+    .customer .content .carousel-control-prev .carousel-control-prev-icon {
+        margin-top: 50px;
+    }
+
+    .customer .content .carousel-control-next .carousel-control-next-icon {
+        margin-top: 50px;
+    }*/
+
+/* end customer */
+
+/* start footer */
+
+/*.footer {
+    background: #055235;
+    margin-top: 100px;
+    height: auto;
+}
+
+    .footer .box-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+        .footer .box-container .box {
+            margin: 25px;
+            font-family: 'Maven Pro';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 40px;
+            line-height: 30px;
+            text-indent: 5px;
+            color: #FFFFFF;
+        }
+
+            .footer .box-container .box img {
+                width: 150px;
+                height: 150px;
+                margin-top: 50px;
+            }
+
+            .footer .box-container .box a {
+                font-size: 20px;
+                color: #FFFFFF;
+                padding: 15px 0;
+                display: block;
+                text-decoration: none;
+                margin-left: 50px;
+            }
+
+    .footer a:hover {
+        text-decoration: underline;
+    }
+
+    .footer .credit {
+        font-family: 'Maven Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 30px;
+        text-align: center;
+        padding: 25px 10px;
+        color: #FFFFFF;
+        opacity: 0.7;
+    }*/
+
+/* end footer */
+
+/*.scroll-top {
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    z-index: 1000;
+}
+
+    .scroll-top img {
+        width: 50px;
+        animation: ex .3s linear infinite;
+    }
+
+@keyframes ex {
+}
+
+#toggle {
+    background-color: #353b48;
+    color: #fff;
+    text-align: right;
+    padding: 10px;
+}*/
+
+
+
+
+
+
+
+/* responsive */
+
+/* bổ sung đoạn này */
+/*@media only screen and (max-width: 1440px) {
+    .navbar-toggler {
+        margin-right: 20px;
+    }*/
+
+    /* sửa lại ở đoạn này */
+    /*.product .contentProduct .contentRight img {
+        margin-left: 30%;
+    }
+
+    .content .item .groupA img {
+        width: 350px;
+        height: 300px;
+        border: 2px solid black;
+        object-fit: cover;
+    }
+
+    .content .item .groupB img {
+        width: 350px;
+        height: 300px;
+        object-fit: cover;
+        border: 2px solid black;
+    }
+
+    .content .item .groupA .card {
+        width: 350px;
+    }
+
+    .content .item .groupB .card {
+        width: 350px;
+    }*/
+
+    /* đến đoạn này */
+/*}
+
+@media only screen and (max-width: 768px) {
+
+    .contentHome .sliderImg {
+        width: 1000px;*/
+        /* margin-left: -20px; */
+    /*}
+
+    .product .titleProduct .title {
+        margin-left: 0px;
+    }
+
+    .content .item .box p {
+        width: 45px;
+        font-size: 8px;
+        left: 8%;
+    }
+
+    .scroll-top {
+        display: none;
+    }
+
+    .container-fluid .btn {
+        display: none;
+    }
+
+    header .navbar button {
+        border-radius: 8px 8px 8px 8px;
+    }
+
+    .nav-item {
+        border-bottom: 2px solid black;
+    }
+
+    .navbar-toggler {
+        margin-right: 10px;
+    }
+
+    .sticky .navbar .container-fluid {
+        background-color: #FFFFFF;
+        margin-top: 0px;
+    }
+
+    .navbar-brand {
+        margin-left: 0px;
+    }
+
+    .home .contentHome {
+        margin-top: 50px;
+    }
+
+        .home .contentHome .more {
+            display: flex;
+            margin-top: 100px;
+            justify-content: center;
+            transition: all .5s ease 0s;
+        }
+
+        .home .contentHome h1 {
+            font-size: 25px;
+        }
+
+        .home .contentHome p {
+            font-size: 10px;
+        }
+
+        .home .contentHome .more h4 {
+            margin-top: 5px;
+            color: #F5A21F;
+            transition: all .5s ease 0s;
+        }
+
+        .home .contentHome .more .btnB {
+            margin-left: 20px;
+        }
+
+    .product .titleProduct h1 {
+        font-weight: 700;
+        font-size: 40px;
+        margin-left: 10px;
+        line-height: 85px;
+        letter-spacing: -0.02em;
+        color: #055235;
+    }
+
+    .product .titleProduct img {
+        width: 150px;
+        transform: matrix(1, 0.01, -0.04, 1, 0, 0);
+    }
+
+
+    .product .contentProduct .owl-carousel .item {
+        display: flex;
+        margin: 10px;
+    }
+
+    .product .contentProduct .contentLeft {
+        width: 270px;
+        margin-left: 0px;
+    }
+
+        .product .contentProduct .contentLeft h2 {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 40px;
+            letter-spacing: -0.02em;
+            color: #055235;
+        }
+
+        .product .contentProduct .contentLeft h6 {
+            font-family: 'Maven Pro';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 15px;
+            line-height: 23px;
+            color: rgba(0, 0, 0, 0.5);
+            text-align: center;
+        }
+
+        .product .contentProduct .contentLeft p {
+            font-family: 'Maven Pro';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 30px;
+            display: flex;
+            align-items: flex-end;
+            text-indent: 5px;
+            text-align: justify;
+            color: #001F11;
+        }
+
+    .product .contentRight {
+        width: 300px;
+        float: right;
+        margin-right: 0px !important;
+    }
+
+        .product .contentRight img {
+            width: 50% !important;
+            height: 250px;
+            margin-left: 200px;
+        }
+
+
+    .solution {
+        width: 100%;
+        height: 600px;
+        margin-top: 0px;
+    }
+
+        .solution .titleSolution .title {
+            margin-left: 0px;
+        }
+
+            .solution .titleSolution .title h1 {
+                font-family: 'Maven Pro';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 25px;
+                line-height: 45px;
+                letter-spacing: -0.02em;
+                color: #055235;
+            }
+
+            .solution .titleSolution .title img {
+                width: 100px;
+            }
+
+        .solution .titleSolution .content {
+            font-family: 'Maven Pro';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 30px;
+            display: flex;
+            align-items: flex-end;
+            text-indent: 5px;
+            width: 70%;
+            text-align: justify;
+            margin-left: 20px;
+            color: #001F11;
+        }
+
+    .wrapper {
+        margin-left: 0;
+    }
+
+    .parent {
+        width: 40%;
+        margin: 20px;
+        height: 300px;
+        border: 1px solid blue;
+        overflow: hidden;
+        position: relative;
+        float: left;
+        display: inline-block;
+        cursor: pointer;
+    }
+
+    .news {
+        width: 100%;
+        height: 500px;
+        margin-top: 1000px;
+    }
+
+        .news .titleNews .title {
+            margin-left: 0px;
+        }
+
+        .news .content .item {
+            margin-top: 50px;
+            margin-left: 95px !important;
+        }
+
+
+    .customer {
+        margin-top: 50px;
+    }
+
+        .customer .title h1 {
+            font-family: 'Maven Pro';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 50px;
+            text-align: left;
+            margin-left: 10px;
+            color: #055235;
+        }
+
+        .customer .title img {
+            margin-left: 10px;
+            width: 200px;
+        }
+
+        .customer .content {
+            margin-top: 0px;
+            margin-left: 0px;
+        }
+
+            .customer .content .logoCustomer {
+                width: 300px;
+            }
+
+                .customer .content .logoCustomer img {
+                    width: 100px;
+                    height: 100px;
+                    margin: 15px 80px;
+                }
+
+    .footer .box-container {
+        display: flex;
+        flex-wrap: inherit;
+        justify-content: center;
+    }
+
+        .footer .box-container .box {
+            margin: 5px;
+            font-family: 'Maven Pro';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 30px;
+            text-indent: 5px;
+            color: #FFFFFF;
+            width: 270px;
+        }
+
+            .footer .box-container .box img {
+                width: 100px;
+                height: 100px;
+                margin-top: 0px;
+            }
+
+            .footer .box-container .box a {
+                color: #FFFFFF;
+                padding: 10px 0;
+                display: block;
+                text-decoration: none;
+                font-size: 20px;
+                margin-left: 0;
+            }
+
+    .footer .credit {
+        font-family: 'Maven Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 30px;
+        text-align: center;
+        padding: 25px 10px;
+        color: #FFFFFF;
+        opacity: 0.7;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .navbar-toggler {
+        margin-right: 10px;
+    }
+
+    .product .contentProduct .contentLeft {
+        width: 330px;
+        margin-left: 9px;
+    }
+
+    .product .contentRight img {
+        width: 75% !important;
+        height: 250px;
+        margin-left: 150px;
+    }
+
+    .parent {
+        width: 40%;
+        margin: 20px;
+        height: 222px;
+        cursor: pointer;
+    }
+
+    .news {
+        width: 100%;
+        height: 500px;
+        margin-top: 700px;
+    }
+
+
+
+    .content .item .groupB {
+        margin-left: 32px;
+    }
+
+        .content .item .groupB img {
+            border: 2px solid black;
+        }
+
+    .customer .content .logoCustomer img {
+        width: 80px;
+        height: 80px;
+        margin: 10px 50px;
+    }
+
+    .customer .benhvien p {
+        font-family: 'Maven Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 50px;
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        color: #001F11;
+    }
+
+    .footer .box-container {
+        display: flex;
+        flex-wrap: inherit;
+        justify-content: center;
+    }
+
+        .footer .box-container .box {
+            margin: 5px;
+            font-family: 'Maven Pro';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 30px;
+            text-indent: 5px;
+            color: #FFFFFF;
+            width: 270px;
+        }
+
+            .footer .box-container .box img {
+                width: 80px;
+                height: 80px;
+                margin-top: 0px;
+            }
+
+            .footer .box-container .box a {
+                color: #FFFFFF;
+                padding: 10px 0;
+                display: block;
+                text-decoration: none;
+                font-size: 15px;
+                margin-left: 0;
+            }
+
+    .footer .credit {
+        font-family: 'Maven Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+        padding: 25px 10px;
+        color: #FFFFFF;
+        opacity: 0.7;
+    }
+}
+
+@media only screen and (max-width: 425px) {*/
+    /* bổ dung đoạn này đến */
+    /*.content .item .groupA .card {
+        width: 100%;
+    }
+
+    .content .item .groupB .card {
+        width: 100%;
+    }*/
+    /* đoạn này */
+
+    /*.scroll-top {
+        display: none;
+    }
+
+    .sticky .navbar .container-fluid {
+        background-color: #FFFFFF;
+        margin-top: 0px;
+        position: fixed;
+        top: 0px;
+    }
+
+    .navbar-toggler {
+        margin-right: 40px;
+    }
+
+    .product .titleProduct h1 {
+        font-weight: 700;
+        font-size: 25px;
+        margin-left: 10px;
+        line-height: 85px;
+        letter-spacing: -0.02em;
+        color: #055235;
+    }
+
+    .product .titleProduct img {
+        width: 100px;
+    }
+
+    .product .contentProduct .contentRight {
+        width: 200px;
+        float: right;
+        margin-right: 200px;
+    }
+
+    .product .contentRight img {
+        height: 250px;
+        margin-left: 10px;
+    }
+
+    .btnDetail {
+        width: 100px;
+        height: 25px;
+        margin-right: 0px;
+    }
+
+    .solution .titleSolution .title h1 {
+        font-size: 20px;
+    }
+
+    .wrapper {
+        margin-left: 50px;
+    }
+
+    .parent {
+        width: 55%;
+        margin: 25px;
+        border: 1px solid blue;
+        overflow: hidden;
+        position: relative;
+        display: inline-block;
+        cursor: pointer;
+    }
+
+    .news {
+        margin-top: 1790px;
+        height: 300px;
+    }
+
+    .content .item .box {
+        display: none;
+    }
+
+    .content .item img {
+        height: 100px;
+        border: 2px solid black;
+    }
+
+    .customer .content .logoCustomer img {
+        width: 50px;
+        height: 80px;
+        margin: 10px 50px;
+    }
+
+    .footer .box-container .box {
+        margin: 5px;
+        font-size: 20px;
+        width: 200px;
+    }
+
+        .footer .box-container .box img {
+            width: 50px;
+            height: 50px;
+            margin-top: 0px;
+        }
+
+        .footer .box-container .box a {
+            font-size: 13px;
+            margin-left: 0;
+        }
+
+    .footer .credit {
+        font-size: 15px;
+    }
+
+    .scroll-top img {
+        margin-right: 40px;
+        width: 50px;
+        animation: ex .3s linear infinite;
+    }
+}*/
+
+
+
+
+
+
+
+/* bổ sung đoạn này */
+/*@media only screen and (width: 2560px) {
+
+    .product .contentProduct {
+        margin-top: 20px;
+    }
+
+        .product .contentProduct .contentLeft {
+            width: 50%;
+            float: left;
+        }
+
+        .product .contentProduct .contentRight {
+            width: 50%;
+            float: right;
+        }
+
+    .item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .product .contentProduct .contentLeft h6 {
+        text-align: left;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .solution .titleSolution .content {
+        width: 80%;
+    }
+
+    .content .owl-carousel .item {
+        margin-left: 0px !important;
+    }
+
+    .content .item .groupA .card a {
+        font-size: 20px;
+    }
+
+    .content .item .groupB a {
+        font-size: 20px;
+    }
+
+    .content .item .groupA .card {
+        width: 600px;
+    }
+
+    .content .item .groupB .card {
+        width: 600px;
+    }
+
+    .content .item .groupB img {
+        width: 600px;
+    }
+
+    .content .item .groupA img {
+        width: 600px;
+    }
+}*/
+
+
+/** {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+}
+
+.news .owl-carousel .owl-item {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.dropdown-menu.show {
+    width: 240px;
+}
+
+
+
+
+#owl-carousel {
+    display: flex;
+}*/
+
+/* start header */
+/*.modal-header .btn-close {
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.modal-body .btn-primary {
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: flex;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    z-index: 9999999999999999;
+}
+
+    header .navbar {
+        margin-top: -8px;
+    }
+
+.navbar .container-fluid {
+    background-color: #001F11;
+}
+
+.sticky .navbar .container-fluid {
+    background-color: #FFFFFF;*/
+    /* margin-top: 35px; */
+/*}
+
+.sticky .navbar a {
+    color: #055235;
+}
+
+.navbar-brand {
+    margin-left: 50px;
+}
+
+
+header .logo {
+    width: 85px;
+    height: 65px;
+}
+
+.navbar-nav .nav-link.active {
+    color: #F5A21F;
+    background: #055235;
+    width: 100%;
+    cursor: pointer;
+}
+
+
+
+header .navbar li {
+    list-style: none;
+    cursor: pointer;*/
+    /* padding-left: 25px; */
+/*}
+
+
+    header .navbar li a {
+        padding: 30px;
+        margin-left: 20px;
+        font-family: 'Maven Pro';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 23px;
+        color: #fff;
+        text-decoration: none;
+    }
+
+        header .navbar li a:hover {
+            color: #F5A21F;*/
+            /* background: #055235; */
+        /*}
+
+
+
+.lh {
+    text-decoration: none;
+    color: #fff;
+}
+
+    .lh:hover {
+        color: #fff;
+    }
+
+header .navbar button {
+    align-items: center;
+    padding: 16px 20px;
+    gap: 10px;
+    background: #F5A21F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px 8px 8px 30px;
+    transform: rotate(0.73deg);
+}
+
+    header .navbar button:hover {
+        background: #055235;
+        color: #fff;
+    }*/
+
+/* end header */
+
+/* start home */
+
+/*.home {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+}
+
+    .home .contentHome {
+        width: 100%;
+        margin-top: 80px;
+    }
+
+.contentHome .owl-nav {
+    display: none;
+}
+
+.contentHome .owl-dots {
+    display: none;
+}*/
+
+/* end home */
+
+/* start product */
+/*.product {
+    margin-top: 50px;
+    width: 100%;
+    height: 600px;
+}
+
+    .product .owl-nav {
+        display: none;
+    }
+
+    .product .owl-dots {
+        display: none;
+    }
+
+    .product .titleProduct h1 {
+        font-family: 'Maven Pro';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 85px;
+        letter-spacing: -0.02em;
+        color: #055235;
+    }
+
+    .product .titleProduct .title {
+        margin-left: 140px;*/
+        /* mục đã sửa */
+    /*}
+
+
+    .product .titleProduct img {
+        width: 150px;
+        transform: matrix(1, 0.01, -0.04, 1, 0, 0);
+    }
+
+    .product .contentProduct {
+        width: 100%;
+    }
+
+        .product .contentProduct .contentLeft {
+            width: 500px;
+            margin-left: 160px;
+            float: left;
+        }
+
+        .product .contentProduct .contentRight {
+            width: 500px;
+            float: right;
+            margin-right: 200px;
+        }
+
+        .product .contentProduct .btnSPL .carousel-control-prev-icon {
+            margin-right: 100px;
+        }
+
+        .product .contentProduct .contentLeft h2 {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 35px;
+            line-height: 40px;
+            letter-spacing: -0.02em;
+            color: #055235;
+        }
+
+        .product .contentProduct .contentLeft h6 {
+            font-family: 'Maven Pro';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 23px;
+            color: rgba(0, 0, 0, 0.5);
+            text-align: center;
+        }
+
+        .product .contentProduct .contentLeft p {
+            font-family: 'Maven Pro';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 25px;
+            line-height: 30px;
+            display: flex;
+            align-items: flex-end;
+            text-indent: 5px;
+            text-align: justify;
+            color: #001F11;
+        }
+
+        .product .contentProduct img {
+            width: 200px;
+            height: 400px;
+        }
+
+.btnDetail {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+    gap: 10px;
+    width: 100px;
+    height: 25px;
+    background: #247032;
+    border-radius: 10px;
+    margin-right: 50px;
+    float: right;
+    color: #FFFFFF;
+}
+
+    .btnDetail img {
+        width: 15px;
+        height: 10px;
+    }*/
+
+
+/* end product */
+
+
+/* start solution */
+/*.solution {
+    width: 100%;
+    height: 600px;
+    margin-top: 50px;
+}
+
+    .solution .titleSolution {
+        display: flex;
+    }
+
+        .solution .titleSolution .title {
+            margin-left: 140px;
+        }
+
+            .solution .titleSolution .title h1 {
+                font-family: 'Maven Pro';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 35px;
+                line-height: 45px;
+                letter-spacing: -0.02em;
+                color: #055235;
+            }
+
+            .solution .titleSolution .title img {
+                width: 150px;
+            }
+
+        .solution .titleSolution .content {
+            font-family: 'Maven Pro';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 30px;
+            display: flex;
+            align-items: flex-end;
+            text-indent: 5px;
+            width: 65%;
+            margin-left: 50px;
+            color: #001F11;
+        }
+
+.wrapper {
+    margin-left: 80px;
+    width: 100%;
+}
+
+
+.parent {
+    width: 21%;
+    margin: 20px;
+    height: 300px;
+    border: 1px solid blue;
+    overflow: hidden;*/
+    /* position: relative; */
+    /* float: left; */
+    /*display: inline-block;
+    cursor: pointer;
+}
+
+.child {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}*/
+
+/* Several different images */
+/*.bg-one {
+    width: 100%;
+    background-image: url(../Images/Daotaonhanluc.png);
+}
+
+.bg-two {
+    width: 100%;
+    background-image: url(../Images/web.png);
+}
+
+.bg-three {
+    width: 100%;
+    background-image: url(../Images/khaosat.png);
+}
+
+.bg-four {
+    width: 100%;
+    background-image: url(../Images/IOT.png);
+}
+
+.bg-five {
+    width: 100%;
+    background-image: url(../Images/tuvan.png);
+}
+
+.bg-six {
+    width: 100%;
+    background-image: url(../Images/Phanphoithietbi.png);
+}
+
+.bg-seven {
+    width: 100%;
+    background-image: url(../Images/Phanphoiphanmem.png);
+}
+
+.bg-eight {
+    width: 100%;
+    background-image: url(../Images/thicong.png);
+}
+
+
+.wrapper a {
+    display: none;
+    font-size: 25px;
+    color: #ffffff !important;
+    font-family: sans-serif;
+    text-align: center;
+    text-decoration: none;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.parent:hover .child,
+.parent:focus .child {
+    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+    .parent:hover .child:before,
+    .parent:focus .child:before {
+        display: block;
+    }
+
+.parent:hover a,
+.parent:focus a {
+    display: block;
+}
+
+.child:before {
+    content: "";
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(52, 73, 94, 0.75);
+}
+
+
+
+.solution button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+    gap: 10px;
+    width: 100px;
+    height: 25px;
+    background: #247032;
+    border-radius: 10px;
+    margin-right: 50px;
+    float: right;
+    color: #FFFFFF;
+}
+
+    .solution button img {
+        width: 15px;
+        height: 10px;
+    }*/
+
+/* end solution */
+
+/* start news */
+
+/*.news {
+    width: 100%;
+    height: 500px;
+    margin-top: 250px;
+}
+
+    .news .owl-nav {
+        display: none;
+    }
+
+    .news .owl-dots {
+        display: none;
+    }
+
+    .news .titleNews .title {
+        margin-left: 140px;
+    }
+
+        .news .titleNews .title h1 {
+            font-family: 'Maven Pro';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 35px;
+            line-height: 45px;
+            letter-spacing: -0.02em;
+            color: #055235;
+        }
+
+        .news .titleNews .title img {
+            width: 150px;
+        }
+
+    .news .titleNews .content {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+.content .item {
+    margin-top: 50px;
+}*/
+
+
+/* bổ sung lại đoạn này từ*/
+
+/*.news .content .item .card img {
+    transition: all 0.3s ease-in-out;
+}
+
+.news .content .item .card:hover img {
+    transform: scale(1.1);
+}*/
+
+/* đeen day */
+
+
+/*.content .item .box {*/
+    /* border: 1px solid #055235; */
+    /*border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+    gap: 10px;
+    width: 100px;
+    color: #055235;
+    position: absolute;
+    z-index: 9999999;
+}
+
+    .content .item .box p {
+        background: #FFFFFF;
+        border: 1px solid #055235;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 0px;
+        gap: 10px;
+        width: 90px;
+        color: #055235;
+        position: absolute;
+        z-index: 9999;
+        left: -30%;
+        top: -20px;
+    }
+
+
+.news .content {
+    display: flex;
+}
+
+.news .item .card {*/
+    /* width: 500px; */
+/*}
+
+    .news .item .card a {
+        text-decoration: none;
+        color: black;
+    }
+
+        .news .item .card a:hover {
+            color: #055235;
+        }
+
+    .news .item .card:hover {
+        transform: translateY(-20px);
+    }
+
+.news .item .card {
+    border: 1px solid;
+    transition: transform .5s;
+    height: 400px;
+    width: 20rem;
+}*/
+
+
+/* end news */
+
+
+/* start customer */
+
+/*.customer {
+    margin-top: 150px;
+    margin-left: 100px;
+}
+
+    .customer .title h1 {
+        font-family: 'Maven Pro';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 50px;
+        text-align: left;
+        margin-left: 140px;
+        color: #055235;
+    }
+
+    .customer .title img {
+        margin-left: 140px;
+        width: 300px;
+    }
+
+    .customer .content .btn {
+        margin-top: 100px;
+    }
+
+    .customer .content .btnL img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .customer .content .btnR img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .customer .content {
+        display: flex;
+        margin-top: 100px;*/
+        /* margin-left: 200px; */
+    /*}
+
+    .customer .owl-nav {
+        display: none;
+    }
+
+    .customer .owl-dots {
+        display: none;
+    }
+
+    .customer .content .logoCustomer img {
+        width: 150px;
+        height: 200px;
+        margin: 15px 80px;
+    }
+
+    .customer .benhvien p {
+        font-family: 'Maven Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 50px;
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        color: #001F11;
+    }
+
+    .customer .content .carousel-control-prev .carousel-control-prev-icon {
+        margin-top: 50px;
+    }
+
+    .customer .content .carousel-control-next .carousel-control-next-icon {
+        margin-top: 50px;
+    }*/
+
+/* end customer */
+
+/* start footer */
+
+/*.footer {
+    background: #055235;
+    margin-top: 100px;
+    height: auto;
+}
+
+    .footer .box-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+        .footer .box-container .box {
+            margin: 25px;
+            font-family: 'Maven Pro';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 40px;
+            line-height: 30px;
+            text-indent: 5px;
+            color: #FFFFFF;
+        }
+
+            .footer .box-container .box img {
+                width: 150px;
+                height: 150px;
+                margin-top: 50px;
+            }
+
+            .footer .box-container .box a {
+                font-size: 20px;
+                color: #FFFFFF;
+                padding: 15px 0;
+                display: block;
+                text-decoration: none;
+                margin-left: 50px;
+            }
+
+    .footer a:hover {
+        text-decoration: underline;
+    }
+
+    .footer .credit {
+        font-family: 'Maven Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 30px;
+        text-align: center;
+        padding: 25px 10px;
+        color: #FFFFFF;
+        opacity: 0.7;
+    }*/
+
+/* end footer */
+
+/*.scroll-top {
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    z-index: 1000;
+}
+
+    .scroll-top img {
+        width: 50px;
+        animation: ex .3s linear infinite;
+    }
+
+@keyframes ex {
+}
+
+#toggle {
+    background-color: #353b48;
+    color: #fff;
+    text-align: right;
+    padding: 10px;
+}*/
+
+
+
+
+
+
+/* đoạn được thêm */
+
+/*.news .content .item .card .cardImg {*/
+    /* width: 500px; */
+    /*height: 300px;
+}
+
+.owl-stage {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+a.dropdown-item {
+    margin-left: 20px!important;
+}
+.dropdown {
+    margin-top: 28px;
+}
+.dropdown-item:focus{
+    background-color:none !important
+}
+
+.dropdown a {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 50px;
+    font-family: 'Maven Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+}*/
+
+        /*.dropdown a:hover {
+            color: #F5A21F;
+        }*/
+
+
+/*.navbar-expand-lg .navbar-nav .dropdown-menu .dropdown-item {
+    width: 200px;
+    color: #000;
+}
+
+
+
+.main_product {
+    margin-top: 100px;
+}
+
+    .main_product .title h1 {
+        font-family: 'Maven Pro';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 50px;
+        text-align: left;
+        margin-left: 140px;
+        color: #055235;
+    }
+
+.products .item .card:hover {
+    transform: scale(0.9);
+}
+
+.products .item .card {
+    border: 1px solid;
+    transition: transform .5s;
+    height: 500px;
+    width: 20rem;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .customer .container {
+    width: 100%;
+    border-radius: 4px;
+    padding: 40px 0;
+}
+
+.customer .content {
+    display: flex;
+    margin-top: 60px;
+}
+
+.customer .wrapper {
+    width: 33.3%;
+    height: 100%;
+    padding: 10px;
+}
+
+.customer .box {
+    width: 100%;
+    height: 300px;
+    border-radius: 50px;
+    position: relative;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 1.4px 1.7px rgba(0, 0, 0, 0.017), 0 3.3px 4px rgba(0, 0, 0, 0.024), 0 6.3px 7.5px rgba(0, 0, 0, 0.03), 0 11.2px 13.4px rgba(0, 0, 0, 0.036), 0 20.9px 25.1px rgba(0, 0, 0, 0.043), 0 50px 60px rgba(0, 0, 0, 0.06);
+}
+
+.customer .box .hide {
+    opacity: 0;
+}
+
+.customer .box .frame {
+    position: absolute;
+    border: 1px solid #fff;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.customer .box h2, .box p {
+    position: absolute;
+    color: #fff;
+    z-index: 2;
+    width: 100%;
+    transition: opacity 0.2s, transform 0.3s;
+}
+
+.customer .box h2 {
+    font-weight: 500;
+    font-size: 22px;
+    margin-bottom: 0;
+    letter-spacing: 1px;
+}
+
+.customer .box p {
+    bottom: 0;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.customer .box:hover {
+    transition: all 0.3s ease-in-out;
+}
+
+.customer .box:hover:before {
+    transition: all 0.3s ease-in-out;
+}
+
+.customer .box img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transition: all 0.3s ease-in-out;
+}
+
+.customer .box img:hover {
+    transition: all 0.3s ease-in-out;
+}
+
+.customer .box img:after {
+    content: '';
+    position: absolute;
+    background-color: rgba(0, 0, 0, .6);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.customer .box img:hover {
+    transition: all 0.3s ease-in-out;
+}
+
+.customer .vintage h2 {
+    top: 50%;
+    transform: translate3d(0, 60px, 0);
+    text-align: center;
+}
+
+.customer .vintage p {
+    opacity: 0;
+    bottom: 0;
+    transform: translate3d(0, -10px, 0);
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.customer .vintage:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(72, 76, 97, 0) 0%, rgba(72, 76, 97, 0.8) 75%);
+    z-index: 2;
+    bottom: -100%;
+    left: 0;
+}
+
+.customer .vintage:hover:before {
+    bottom: 0;
+}
+
+.customer .vintage:hover h2 {
+    bottom: 40px;
+    transform: translate3d(0, 20px, 0);
+}
+
+.customer .vintage:hover p {
+    opacity: 1;
+    transform: translate3d(0, -30px, 0);
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive */
+
+/* bổ sung đoạn này */
+/*@media only screen and (max-width: 1440px) {
+    .navbar-toggler {
+        margin-right: 20px;
+    }*/
+
+    /* sửa lại ở đoạn này */
+    /*.product .contentProduct .contentRight img {
+        margin-left: 30%;
+    }
+
+    .content .item .groupA img {
+        width: 350px;
+        height: 300px;
+        border: 2px solid black;
+        object-fit: cover;
+    }
+
+    .content .item .groupB img {
+        width: 350px;
+        height: 300px;
+        object-fit: cover;
+        border: 2px solid black;
+    }
+
+    .content .item .groupA .card {
+        width: 350px;
+    }
+
+    .content .item .groupB .card {
+        width: 350px;
+    }*/
+
+    /* đến đoạn này */
+/*}
+
+@media only screen and (max-width: 768px) {
+
+    .news .content .item .card .cardImg {
+        height: 300px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .contentHome .sliderImg {
+        width: 1000px;*/
+        /* margin-left: -20px; */
+    /*}
+
+    .product .titleProduct .title {
+        margin-left: 0px;
+    }
+
+    .content .item .box p {
+        width: 45px;
+        font-size: 8px;
+        left: 8%;
+    }
+
+    .scroll-top {
+        display: none;
+    }
+
+    .container-fluid .btn {
+        display: none;
+    }
+
+    header .navbar button {
+        border-radius: 8px 8px 8px 8px;
+    }
+
+    .nav-item {
+        border-bottom: 2px solid black;
+    }
+
+    .navbar-toggler {
+        margin-right: 10px;
+    }
+
+    .sticky .navbar .container-fluid {
+        background-color: #FFFFFF;
+        margin-top: 0px;
+    }
+
+    .navbar-brand {
+        margin-left: 0px;
+    }
+
+    .home .contentHome {
+        margin-top: 50px;
+    }
+
+        .home .contentHome .more {
+            display: flex;
+            margin-top: 100px;
+            justify-content: center;
+            transition: all .5s ease 0s;
+        }
+
+        .home .contentHome h1 {
+            font-size: 25px;
+        }
+
+        .home .contentHome p {
+            font-size: 10px;
+        }
+
+        .home .contentHome .more h4 {
+            margin-top: 5px;
+            color: #F5A21F;
+            transition: all .5s ease 0s;
+        }
+
+        .home .contentHome .more .btnB {
+            margin-left: 20px;
+        }
+
+    .product .titleProduct h1 {
+        font-weight: 700;
+        font-size: 40px;
+        margin-left: 10px;
+        line-height: 85px;
+        letter-spacing: -0.02em;
+        color: #055235;
+    }
+
+    .product .titleProduct img {
+        width: 150px;
+        transform: matrix(1, 0.01, -0.04, 1, 0, 0);
+    }
+
+
+    .product .contentProduct .owl-carousel .item {
+        display: flex;
+        margin: 10px;
+    }
+
+    .product .contentProduct .contentLeft {
+        width: 270px;
+        margin-left: 0px;
+    }
+
+        .product .contentProduct .contentLeft h2 {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 40px;
+            letter-spacing: -0.02em;
+            color: #055235;
+        }
+
+        .product .contentProduct .contentLeft h6 {
+            font-family: 'Maven Pro';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 15px;
+            line-height: 23px;
+            color: rgba(0, 0, 0, 0.5);
+            text-align: center;
+        }
+
+        .product .contentProduct .contentLeft p {
+            font-family: 'Maven Pro';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 30px;
+            display: flex;
+            align-items: flex-end;
+            text-indent: 5px;
+            text-align: justify;
+            color: #001F11;
+        }
+
+    .product .contentRight {
+        width: 300px;
+        float: right;
+        margin-right: 0px !important;
+    }
+
+        .product .contentRight img {
+            width: 50%;
+            height: 250px;
+            margin-left: 200px;
+        }
+
+
+    .solution {
+        width: 100%;
+        height: 600px;
+        margin-top: 0px;
+    }
+
+        .solution .titleSolution .title {
+            margin-left: 0px;
+        }
+
+            .solution .titleSolution .title h1 {
+                font-family: 'Maven Pro';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 25px;
+                line-height: 45px;
+                letter-spacing: -0.02em;
+                color: #055235;
+            }
+
+            .solution .titleSolution .title img {
+                width: 100px;
+            }
+
+        .solution .titleSolution .content {
+            font-family: 'Maven Pro';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 30px;
+            display: flex;
+            align-items: flex-end;
+            text-indent: 5px;*/
+            /* width: 70%; */
+            /*text-align: justify;
+            margin-left: 20px;
+            color: #001F11;
+        }
+
+    .wrapper {
+        margin-left: 0;
+    }
+
+    .parent {
+        width: 40%;
+        margin: 20px;
+        height: 300px;
+        border: 1px solid blue;
+        overflow: hidden;
+        position: relative;
+        float: left;
+        display: inline-block;
+        cursor: pointer;
+    }
+
+    .news {
+        width: 100%;*/
+        /* height: 500px; */
+        /*margin-top: 1000px;
+    }
+
+        .news .titleNews .title {
+            margin-left: 0px;
+        }
+
+        .news .content .item {
+            margin-top: 50px;*/
+            /* margin-left: 95px !important; */
+        /*}
+
+
+    .customer {
+        margin-top: 50px;
+    }
+
+        .customer .title h1 {
+            font-family: 'Maven Pro';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 50px;
+            text-align: left;
+            margin-left: 10px;
+            color: #055235;
+        }
+
+        .customer .title img {
+            margin-left: 10px;
+            width: 200px;
+        }
+
+        .customer .content {
+            margin-top: 0px;
+            margin-left: 0px;
+        }
+
+            .customer .content .logoCustomer {
+                width: 300px;
+            }
+
+                .customer .content .logoCustomer img {
+                    width: 100px;
+                    height: 100px;
+                    margin: 15px 80px;
+                }
+
+    .footer .box-container {
+        display: flex;
+        flex-wrap: inherit;
+        justify-content: center;
+    }
+
+        .footer .box-container .box {
+            margin: 5px;
+            font-family: 'Maven Pro';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 30px;
+            text-indent: 5px;
+            color: #FFFFFF;
+            width: 270px;
+        }
+
+            .footer .box-container .box img {
+                width: 100px;
+                height: 100px;
+                margin-top: 0px;
+            }
+
+            .footer .box-container .box a {
+                color: #FFFFFF;
+                padding: 10px 0;
+                display: block;
+                text-decoration: none;
+                font-size: 20px;
+                margin-left: 0;
+            }
+
+    .footer .credit {
+        font-family: 'Maven Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 30px;
+        text-align: center;
+        padding: 25px 10px;
+        color: #FFFFFF;
+        opacity: 0.7;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+
+    .news .content .item .card .cardImg {
+        height: 200px;
+    }
+
+
+
+
+
+
+
+
+
+
+    .navbar-toggler {
+        margin-right: 10px;
+    }
+
+    .product .contentProduct .contentLeft {
+        width: 330px;
+        margin-left: 9px;
+    }
+
+    .product .contentRight img {
+        width: 75%;
+        height: 250px;
+        margin-left: 150px;
+    }
+
+    .parent {
+        width: 40%;
+        margin: 20px;
+        height: 222px;
+        cursor: pointer;
+    }
+
+
+
+    .customer .content .logoCustomer img {
+        width: 80px;
+        height: 80px;
+        margin: 10px 50px;
+    }
+
+    .customer .benhvien p {
+        font-family: 'Maven Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 50px;
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        color: #001F11;
+    }
+
+    .footer .box-container {
+        display: flex;
+        flex-wrap: inherit;
+        justify-content: center;
+    }
+
+        .footer .box-container .box {
+            margin: 5px;
+            font-family: 'Maven Pro';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 30px;
+            text-indent: 5px;
+            color: #FFFFFF;
+            width: 270px;
+        }
+
+            .footer .box-container .box img {
+                width: 80px;
+                height: 80px;
+                margin-top: 0px;
+            }
+
+            .footer .box-container .box a {
+                color: #FFFFFF;
+                padding: 10px 0;
+                display: block;
+                text-decoration: none;
+                font-size: 15px;
+                margin-left: 0;
+            }
+
+    .footer .credit {
+        font-family: 'Maven Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+        padding: 25px 10px;
+        color: #FFFFFF;
+        opacity: 0.7;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .scroll-top {
+        display: none;
+    }
+
+    .sticky .navbar .container-fluid {
+        background-color: #FFFFFF;
+        margin-top: 0px;
+        position: fixed;
+        top: 0px;
+    }
+
+    .navbar-toggler {
+        margin-right: 40px;
+    }
+
+    .product .titleProduct h1 {
+        font-weight: 700;
+        font-size: 25px;
+        margin-left: 10px;
+        line-height: 85px;
+        letter-spacing: -0.02em;
+        color: #055235;
+    }
+
+    .product .titleProduct img {
+        width: 100px;
+    }
+
+    .product .contentProduct .contentRight {
+        width: 200px;
+        float: right;
+        margin-right: 200px;
+    }
+
+    .product .contentRight img {
+        height: 250px;
+        margin-left: 10px;
+    }
+
+    .btnDetail {
+        width: 100px;
+        height: 25px;
+        margin-right: 0px;
+    }
+
+    .solution .titleSolution .title h1 {
+        font-size: 20px;
+    }
+
+    .wrapper {
+        margin-left: 50px;
+    }
+
+    .parent {
+        width: 55%;
+        margin: 25px;
+        border: 1px solid blue;
+        overflow: hidden;
+        position: relative;
+        display: inline-block;
+        cursor: pointer;
+    }
+
+    .news {
+        margin-top: 1790px;*/
+        /* height: 300px; */
+    /*}
+
+        .news .content .item .box {
+            display: none;
+        }
+
+        .news .content .item img {
+            height: 100px;
+            border: 2px solid black;
+        }
+
+    .customer .content .logoCustomer img {
+        width: 50px;
+        height: 80px;
+        margin: 10px 50px;
+    }
+
+    .footer .box-container .box {
+        margin: 5px;
+        font-size: 20px;
+        width: 200px;
+    }
+
+        .footer .box-container .box img {
+            width: 50px;
+            height: 50px;
+            margin-top: 0px;
+        }
+
+        .footer .box-container .box a {
+            font-size: 13px;
+            margin-left: 0;
+        }
+
+    .footer .credit {
+        font-size: 15px;
+    }
+
+    .scroll-top img {
+        margin-right: 40px;
+        width: 50px;
+        animation: ex .3s linear infinite;
+    }
+
+
+
+
+
+
+
+
+
+
+    .solution {
+        width: 100%;
+        height: 600px;
+        margin-top: 50px;
+    }
+
+
+    .product .contentProduct .contentLeft {
+        margin-left: 20px;
+    }
+
+    .product .contentProduct .owl-carousel .item {
+        display: grid;
+    }
+
+    .product .contentProduct .contentRight img {
+        width: 100%;
+        margin-left: 70px;
+    }
+
+    .content .item {
+        margin-left: 20px;
+        margin-top: 50px;
+    }
+
+    .customer .content .item {
+        margin-left: -48px;
+        margin-top: 50px;
+    }
+
+
+
+    .news .owl-carousel .owl-item {
+        margin-right: 0px !important;
+        margin-left: 5px;
+    }
+
+    .news .content .item {
+        width: 200px;
+    }
+
+        .news .content .item .card .cardImg {
+            height: 110px;
+        }
+
+    .contentHome .sliderImg {
+        margin-left: 0px;
+    }
+
+    .customer .title h1 {
+        font-family: 'Maven Pro';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 50px;
+        text-align: left;
+        margin-left: -85px;
+        color: #055235;
+    }
+
+    .customer .title img {
+        margin-left: -85px;
+        width: 200px;
+    }
+
+    .customer .content {
+        margin-left: -60px;
+    }
+
+    .main_product .title h1 {
+        font-family: 'Maven Pro';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 50px;
+        text-align: left;
+        margin-left: 13px;
+        color: #055235;
+    }
+
+    .products .item .card {
+        height: 500px;
+    }
+}*/
+
+
+
+
+
+
+
+/* bổ sung đoạn này */
+/*@media only screen and (width: 2560px) {
+
+    .product .contentProduct {
+        margin-top: 20px;
+    }
+
+        .product .contentProduct .contentLeft {
+            width: 50%;
+            float: left;
+        }
+
+        .product .contentProduct .contentRight {
+            width: 50%;
+            float: right;
+        }
+
+    .item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .product .contentProduct .contentLeft h6 {
+        text-align: left;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .solution .titleSolution .content {*/
+        /* width: 80%; */
+    /*}
+
+    .content .owl-carousel .item {
+        margin-left: 0px !important;
+    }
+}*/
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;1,300;1,500&display=swap');
+
+* {
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+}
+
+.news .owl-carousel .owl-item {
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.dropdown-menu.show {
+    width: 240px;
+}
+
+
+
+
+#owl-carousel {
+    display: flex;
+}
+
+/* start header */
+.modal-header .btn-close {
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.modal-body .btn-primary {
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: flex;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    z-index: 9999999999999999;
+}
+
+    header .navbar {
+        margin-top: -8px;
+    }
+
+.navbar .container-fluid {
+    background-color: #001F11;
+}
+
+.sticky .navbar .container-fluid {
+    background-color: #FFFFFF;
+    /* margin-top: 35px; */
+}
+
+.sticky .navbar a {
+    color: #055235;
+}
+
+.navbar-brand {
+    margin-left: 50px;
+}
+
+
+header .logo {
+    width: 85px;
+    height: 65px;
+}
+
+.navbar-nav .nav-link.active {
+    color: #F5A21F;
+    background: #055235;
+    width: 100%;
+    cursor: pointer;
+}
+
+
+
+header .navbar li {
+    list-style: none;
+    cursor: pointer;
+    /* padding-left: 25px; */
+}
+
+
+    header .navbar li a {
+        padding: 30px;
+        margin-left: 15px;
+        font-family: 'Josefin Sans', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 23px;
+        color: #fff;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+
+        header .navbar li a:hover {
+            color: #F5A21F;
+        }
+
+
+
+.lh {
+    text-decoration: none;
+    color: #fff;
+}
+
+    .lh:hover {
+        color: #fff;
+    }
+
+header .navbar button {
+    align-items: center;
+    padding: 16px 20px;
+    gap: 10px;
+    background: #F5A21F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px 8px 8px 30px;
+    transform: rotate(0.73deg);
+}
+
+    header .navbar button:hover {
+        background: #055235;
+        color: #fff;
+    }
+
+/* end header */
+
+/* start home */
+
+.home {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+}
+
+    .home .contentHome {
+        width: 100%;
+        margin-top: 80px;
+    }
+
+.contentHome .owl-nav {
+    display: none;
+}
+
+.contentHome .owl-dots {
+    display: none;
+}
+
+.contentHome .sliderImg {
+    width: 100%;
+   
+}
+
+/* end home */
+
+/* start product */
+.product {
+    margin-top: 150px;
+    width: 100%;
+    height: 600px;
+}
+
+    .product .owl-nav {
+        display: none;
+    }
+
+    .product .owl-dots {
+        display: none;
+    }
+
+    .product .titleProduct h1 {
+        font-family: 'Josefin Sans', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 85px;
+        letter-spacing: -0.02em;
+        color: #055235;
+    }
+
+    .product .titleProduct .title {
+        margin-left: 140px;
+    }
+
+
+    .product .titleProduct img {
+        width: 150px;
+    }
+
+    .product .contentProduct {
+        width: 100%;
+    }
+
+        .product .contentProduct .contentLeft {
+            width: 500px;
+            margin-left: 130px;
+            float: left;
+        }
+
+        .product .contentProduct .contentRight {
+            width: 500px;
+            float: right;
+            margin-right: 200px;
+        }
+
+        .product .contentProduct .btnSPL .carousel-control-prev-icon {
+            margin-right: 100px;
+        }
+
+        .product .contentProduct .contentLeft h2 {
+            font-family: 'Josefin Sans', sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 35px;
+            line-height: 40px;
+            letter-spacing: -0.02em;
+            color: #055235;
+        }
+
+        .product .contentProduct .contentLeft h6 {
+            font-family: 'Josefin Sans', sans-serif;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 23px;
+            color: rgba(0, 0, 0, 0.5);
+            text-align: center;
+        }
+
+        .product .contentProduct .contentLeft p {
+            font-family: 'Josefin Sans', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 25px;
+            line-height: 30px;
+            display: flex;
+            align-items: flex-end;
+            text-indent: 5px;
+            text-align: justify;
+            color: #001F11;
+        }
+
+        .product .contentProduct img {
+            width: 200px;
+            height: 400px;
+        }
+
+.btnDetail {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+    gap: 10px;
+    width: 100px;
+    height: 25px;
+    background: #247032;
+    border-radius: 10px;
+    margin-right: 50px;
+    float: right;
+    color: #FFFFFF;
+}
+
+    .btnDetail img {
+        width: 15px;
+        height: 10px;
+    }
+
+
+/* end product */
+
+
+/* start solution */
+.solution {
+    width: 100%;
+    height: 600px;
+    margin-top: 50px;
+}
+
+    .solution .titleSolution {
+        display: flex;
+    }
+
+        .solution .titleSolution .title {
+            margin-left: 140px;
+        }
+
+            .solution .titleSolution .title h1 {
+                font-family: 'Josefin Sans', sans-serif;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 35px;
+                line-height: 45px;
+                letter-spacing: -0.02em;
+                color: #055235;
+            }
+
+            .solution .titleSolution .title img {
+                width: 150px;
+            }
+
+        .solution .titleSolution .content {
+            font-family: 'Josefin Sans', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 30px;
+            display: flex;
+            align-items: flex-end;
+            text-indent: 5px;
+            width: 65%;
+            margin-left: 50px;
+            color: #001F11;
+        }
+
+.wrapper {
+    margin-left: 80px;
+    width: 100%;
+}
+
+
+.parent {
+    width: 21%;
+    margin: 10px;
+    height: 251px;
+    /* border: 1px solid blue; */
+    overflow: hidden;
+    position: relative;
+    float: left;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.child {
+    height: 100%;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+/* Several different images */
+.bg-one {
+    width: 100%;
+    background-image: url(../Images/Daotaonhanluc.png);
+}
+
+.bg-two {
+    width: 100%;
+    background-image: url(../Images/web.png);
+}
+
+.bg-three {
+    width: 100%;
+    background-image: url(../Images/khaosat.png);
+}
+
+.bg-four {
+    width: 100%;
+    background-image: url(../Images/IOT.png);
+}
+
+.bg-five {
+    width: 100%;
+    background-image: url(../Images/tuvan.png);
+}
+
+.bg-six {
+    width: 100%;
+    background-image: url(../Images/Phanphoithietbi.png);
+}
+
+.bg-seven {
+    width: 100%;
+    background-image: url(../Images/Phanphoiphanmem.png);
+}
+
+.bg-eight {
+    width: 100%;
+    background-image: url(../Images/thicong.png);
+}
+
+
+.wrapper a {
+    display: none;
+    font-size: 25px;
+    color: #ffffff !important;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.parent:hover .child,
+.parent:focus .child {
+    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+    .parent:hover .child:before,
+    .parent:focus .child:before {
+        display: block;
+    }
+
+.parent:hover a,
+.parent:focus a {
+    display: block;
+}
+
+.child:before {
+    content: "";
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(52, 73, 94, 0.75);
+}
+
+
+
+.solution button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+    gap: 10px;
+    width: 100px;
+    height: 25px;
+    background: #247032;
+    border-radius: 10px;
+    margin-right: 50px;
+    float: right;
+    color: #FFFFFF;
+}
+
+    .solution button img {
+        width: 15px;
+        height: 10px;
+    }
+
+/* end solution */
+
+/* start news */
+
+.news {
+    width: 100%;
+    height: 500px;
+    margin-top: 120px;
+}
+
+    .news .owl-nav {
+        display: none;
+    }
+
+    .news .owl-dots {
+        display: none;
+    }
+
+    .news .titleNews .title {
+        margin-left: 140px;
+    }
+
+        .news .titleNews .title h1 {
+            font-family: 'Josefin Sans', sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 35px;
+            line-height: 45px;
+            letter-spacing: -0.02em;
+            color: #055235;
+        }
+
+        .news .titleNews .title img {
+            width: 150px;
+        }
+
+    .news .titleNews .content {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+.content .item {
+    margin-top: 50px;
+}
+
+
+/* bổ sung lại đoạn này từ*/
+
+.news .content .item .card img {
+    transition: all 0.3s ease-in-out;
+}
+
+.news .content .item .card:hover img {
+    transform: scale(1.1);
+}
+
+/* đeen day */
+
+
+.content .item .box {
+    /* border: 1px solid #055235; */
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+    gap: 10px;
+    width: 100px;
+    color: #055235;
+    position: absolute;
+    z-index: 9999999;
+}
+
+    .content .item .box p {
+        background: #FFFFFF;
+        border: 1px solid #055235;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 0px;
+        gap: 10px;
+        width: 90px;
+        color: #055235;
+        position: absolute;
+        z-index: 9999;
+        left: -30%;
+        top: -20px;
+    }
+
+
+.news .content {
+    display: flex;
+}
+
+.news .item .card {
+    /* width: 500px; */
+}
+
+    .news .item .card a {
+        text-decoration: none;
+        color: black;
+    }
+
+        .news .item .card a:hover {
+            color: #055235;
+        }
+
+    .news .item .card:hover {
+        transform: translateY(-20px);
+    }
+
+.news .item .card {
+    border: 1px solid;
+    transition: transform .5s;
+    height: 400px;
+    width: 20rem;
+}
+
+
+/* end news */
+
+
+/* start customer */
+
+.customer {
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+    .customer .title h1 {
+        font-family: 'Josefin Sans', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 50px;
+        text-align: left;
+        /* margin-left: 140px; */
+        color: #055235;
+    }
+
+    .customer .title img {
+        /* margin-left: 140px; */
+        width: 300px;
+    }
+
+    .customer .content .btn {
+        margin-top: 100px;
+    }
+
+    .customer .content .btnL img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .customer .content .btnR img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .customer .content {
+        display: flex;
+        margin-top: 20px;
+        /* margin-left: 200px; */
+    }
+
+    .customer .owl-nav {
+        display: none;
+    }
+
+    .customer .owl-dots {
+        display: none;
+    }
+
+    .customer .content .logoCustomer img {
+        width: 100px;
+        height: 120px;
+        /* sửa lại */
+        margin: 15px 80px;
+    }
+
+    .customer .benhvien p {
+        font-family: 'Josefin Sans', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 50px;
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        color: #001F11;
+    }
+
+    .customer .content .carousel-control-prev .carousel-control-prev-icon {
+        margin-top: 50px;
+    }
+
+    .customer .content .carousel-control-next .carousel-control-next-icon {
+        margin-top: 50px;
+    }
+
+/* end customer */
+
+/* start footer */
+
+.footer {
+    background: #055235;
+    margin-top: 100px;
+    height: auto;
+}
+
+    .footer .box-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+        .footer .box-container .box {
+            margin: 25px;
+            font-family: 'Josefin Sans', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 40px;
+            line-height: 30px;
+            text-indent: 5px;
+            color: #FFFFFF;
+        }
+
+            .footer .box-container .box img {
+                width: 150px;
+                height: 150px;
+                margin-top: 50px;
+            }
+
+            .footer .box-container .box a {
+                font-size: 20px;
+                color: #FFFFFF;
+                padding: 15px 0;
+                display: block;
+                text-decoration: none;
+                margin-left: 50px;
+            }
+
+    .footer a:hover {
+        text-decoration: underline;
+    }
+
+    .footer .credit {
+        font-family: 'Josefin Sans', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+        padding: 25px 10px;
+        color: #FFFFFF;
+        opacity: 0.7;
+    }
+
+/* end footer */
+
+.scroll-top {
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    z-index: 1000;
+}
+
+    .scroll-top img {
+        width: 50px;
+        animation: ex .3s linear infinite;
+    }
+
+@keyframes ex {
+}
+
+#toggle {
+    background-color: #353b48;
+    color: #fff;
+    text-align: right;
+    padding: 10px;
+}
+
+.news .content .item .card .cardImg {
+    height: 300px;
+}
+
+.owl-stage {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.dropdown {
+    margin-top: 28px;
+}
+
+    .dropdown a {
+        text-decoration: none;
+        color: #fff;
+        margin-left: 50px;
+        font-family: 'Josefin Sans', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+    }
+
+        .dropdown a:hover {
+            color: #F5A21F;
+        }
+
+
+.navbar-expand-lg .navbar-nav .dropdown-menu .dropdown-item {
+    width: 200px;
+    color: #000;
+    font-size: 13px;
+    margin-left: 16px;
+}
+
+
+.main_product {
+    margin-top: 100px;
+}
+
+
+
+    .main_product .title h1 {
+        font-family: 'Josefin Sans', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 50px;
+        text-align: left;
+        color: #055235;
+    }
+
+    .main_product .title_main_product .title img {
+        width: 150px;
+    }
+
+    .main_product .title_main_product .title {
+        margin-left: 140px;
+    }
+
+.products .item .card:hover {
+    transform: scale(0.9);
+}
+
+.products .item .card {
+    border: 1px solid;
+    transition: transform .5s;
+    height: 500px;
+    width: 20rem;
+    margin-left: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive */
+
+@media only screen and (max-width: 1440px) {
+    .navbar-toggler {
+        margin-right: 20px;
+    }
+
+    .product .contentProduct .contentRight img {
+        /* margin-left: 30%; */
+    }
+
+    .content .item .groupA img {
+        width: 350px;
+        height: 300px;
+        border: 2px solid black;
+        object-fit: cover;
+    }
+
+    .content .item .groupB img {
+        width: 350px;
+        height: 300px;
+        object-fit: cover;
+        border: 2px solid black;
+    }
+
+    .content .item .groupA .card {
+        width: 350px;
+    }
+
+    .content .item .groupB .card {
+        width: 350px;
+    }
+
+    .parent {
+        border: none;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .news .content .item .card .cardImg {
+        height: 300px;
+    }
+
+    .main_product .title_main_product .title {
+        margin-left: 0px;
+    }
+
+    .contentHome .sliderImg {
+        width: 1000px;
+        /* margin-left: -20px; */
+    }
+
+    .product .titleProduct .title {
+        margin-left: 0px;
+    }
+
+    .content .item .box p {
+        width: 45px;
+        font-size: 8px;
+        left: 8%;
+    }
+
+    .scroll-top {
+        display: none;
+    }
+
+    .container-fluid .btn {
+        display: none;
+    }
+
+    header .navbar button {
+        border-radius: 8px 8px 8px 8px;
+    }
+
+    .nav-item {
+        border-bottom: 2px solid black;
+    }
+
+    .navbar-toggler {
+        margin-right: 10px;
+    }
+
+    .sticky .navbar .container-fluid {
+        background-color: #FFFFFF;
+        margin-top: 0px;
+    }
+
+    .sticky .dropdown-toggle {
+        color: #055235;
+    }
+
+    .navbar-brand {
+        margin-left: 0px;
+    }
+
+    .home .contentHome {
+        margin-top: 50px;
+    }
+
+        .home .contentHome .more {
+            display: flex;
+            margin-top: 100px;
+            justify-content: center;
+            transition: all .5s ease 0s;
+        }
+
+        .home .contentHome h1 {
+            font-size: 25px;
+        }
+
+        .home .contentHome p {
+            font-size: 10px;
+        }
+
+        .home .contentHome .more h4 {
+            margin-top: 5px;
+            color: #F5A21F;
+            transition: all .5s ease 0s;
+        }
+
+        .home .contentHome .more .btnB {
+            margin-left: 20px;
+        }
+
+    .product .titleProduct h1 {
+        font-weight: 700;
+        font-size: 40px;
+        margin-left: 10px;
+        line-height: 85px;
+        letter-spacing: -0.02em;
+        color: #055235;
+    }
+
+    .product .titleProduct img {
+        width: 150px;
+        transform: matrix(1, 0.01, -0.04, 1, 0, 0);
+    }
+
+
+    .product .contentProduct .owl-carousel .item {
+        display: grid;
+        margin: 10px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .product .contentProduct .contentLeft {
+        /* width: 270px; */
+        margin-left: 0px;
+    }
+
+        .product .contentProduct .contentLeft h2 {
+            font-family: 'Josefin Sans', sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 40px;
+            letter-spacing: -0.02em;
+            color: #055235;
+        }
+
+        .product .contentProduct .contentLeft h6 {
+            font-family: 'Josefin Sans', sans-serif;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 15px;
+            line-height: 23px;
+            color: rgba(0, 0, 0, 0.5);
+            text-align: center;
+        }
+
+        .product .contentProduct .contentLeft p {
+            font-family: 'Josefin Sans', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 30px;
+            display: flex;
+            align-items: flex-end;
+            text-indent: 5px;
+            text-align: justify;
+            color: #001F11;
+        }
+
+    .product .contentRight {
+        width: 300px;
+        float: right;
+        margin-right: 0px !important;
+    }
+
+        .product .contentRight img {
+            width: 50%;
+            height: 250px;
+            margin-left: 15px;
+        }
+
+
+    .solution {
+        width: 100%;
+        height: 600px;
+        margin-top: 0px;
+    }
+
+        .solution .titleSolution .title {
+            margin-left: 0px;
+        }
+
+            .solution .titleSolution .title h1 {
+                font-family: 'Josefin Sans', sans-serif;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 25px;
+                line-height: 45px;
+                letter-spacing: -0.02em;
+                color: #055235;
+            }
+
+            .solution .titleSolution .title img {
+                width: 100px;
+            }
+
+        .solution .titleSolution .content {
+            font-family: 'Josefin Sans', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 30px;
+            display: flex;
+            align-items: flex-end;
+            text-indent: 5px;
+            /* width: 70%; */
+            text-align: justify;
+            margin-left: 20px;
+            color: #001F11;
+        }
+
+    .wrapper {
+        margin-left: 0;
+    }
+
+    .parent {
+        width: 40%;
+        margin: 20px;
+        height: 300px;
+        /* border: 1px solid blue; */
+        overflow: hidden;
+        position: relative;
+        float: left;
+        display: inline-block;
+        cursor: pointer;
+    }
+
+    .news {
+        width: 100%;
+        /* height: 500px; */
+        margin-top: 1000px;
+    }
+
+        .news .titleNews .title {
+            margin-left: 0px;
+        }
+
+        .news .content .item {
+            margin-top: 50px;
+            /* margin-left: 95px !important; */
+        }
+
+
+    .customer {
+        margin-top: 50px;
+    }
+
+        .customer .title {
+            margin-left: 140px;
+        }
+
+            .customer .title h1 {
+                font-family: 'Josefin Sans', sans-serif;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 50px;
+                text-align: left;
+                color: #055235;
+            }
+
+            .customer .title img {
+                margin-left: 10px;
+                width: 200px;
+            }
+
+        .customer .content {
+            margin-top: 0px;
+            margin-left: 0px;
+        }
+
+            .customer .content .logoCustomer {
+                width: 300px;
+            }
+
+                .customer .content .logoCustomer img {
+                    width: 100px;
+                    height: 100px;
+                    margin: 15px 80px;
+                }
+
+    .footer .box-container {
+        display: flex;
+        flex-wrap: inherit;
+        justify-content: center;
+    }
+
+        .footer .box-container .box {
+            margin: 5px;
+            font-family: 'Josefin Sans', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 30px;
+            text-indent: 5px;
+            color: #FFFFFF;
+            width: 270px;
+        }
+
+            .footer .box-container .box img {
+                width: 100px;
+                height: 100px;
+                margin-top: 0px;
+            }
+
+            .footer .box-container .box a {
+                color: #FFFFFF;
+                padding: 10px 0;
+                display: block;
+                text-decoration: none;
+                font-size: 20px;
+                margin-left: 0;
+            }
+
+    .footer .credit {
+        font-family: 'Josefin Sans', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 20px;
+        text-align: center;
+        padding: 25px 10px;
+        color: #FFFFFF;
+        opacity: 0.7;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+
+    .news .content .item .card .cardImg {
+        height: 200px;
+    }
+
+    .navbar-toggler {
+        margin-right: 10px;
+    }
+
+    .product .contentProduct .contentLeft {
+        width: 330px;
+        margin-left: 9px;
+    }
+
+    .product .contentRight img {
+        width: 75%;
+        height: 250px;
+        margin-left: 150px;
+    }
+
+    .parent {
+        width: 40%;
+        margin: 20px;
+        height: 222px;
+        cursor: pointer;
+    }
+
+
+
+    .customer .content .logoCustomer img {
+        width: 80px;
+        height: 80px;
+        margin: 10px 50px;
+    }
+
+    .customer .benhvien p {
+        font-family: 'Josefin Sans', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 50px;
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        color: #001F11;
+    }
+
+    .footer .box-container {
+        display: flex;
+        flex-wrap: inherit;
+        justify-content: center;
+    }
+
+        .footer .box-container .box {
+            margin: 5px;
+            font-family: 'Josefin Sans', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 30px;
+            text-indent: 5px;
+            color: #FFFFFF;
+            width: 270px;
+        }
+
+            .footer .box-container .box img {
+                width: 80px;
+                height: 80px;
+                margin-top: 0px;
+            }
+
+            .footer .box-container .box a {
+                color: #FFFFFF;
+                padding: 10px 0;
+                display: block;
+                text-decoration: none;
+                font-size: 15px;
+                margin-left: 0;
+            }
+
+    .footer .credit {
+        font-family: 'Josefin Sans', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+        padding: 25px 10px;
+        color: #FFFFFF;
+        opacity: 0.7;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .scroll-top {
+        display: none;
+    }
+
+    .sticky .navbar .container-fluid {
+        background-color: #FFFFFF;
+        margin-top: 0px;
+        position: fixed;
+        top: 0px;
+    }
+
+    .navbar-toggler {
+        margin-right: 40px;
+    }
+
+    .product .titleProduct h1 {
+        font-weight: 700;
+        font-size: 25px;
+        margin-left: 10px;
+        line-height: 85px;
+        letter-spacing: -0.02em;
+        color: #055235;
+    }
+
+    .product .titleProduct img {
+        width: 100px;
+    }
+
+    .product .contentProduct .contentRight {
+        width: 200px;
+        float: right;
+        margin-right: 200px;
+    }
+
+    .product .contentRight img {
+        height: 250px;
+        margin-left: 10px;
+    }
+
+    .btnDetail {
+        width: 100px;
+        height: 25px;
+        margin-right: 0px;
+    }
+
+    .solution .titleSolution .title h1 {
+        font-size: 20px;
+    }
+
+    .wrapper {
+        margin-left: 50px;
+    }
+
+    .parent {
+        width: 55%;
+        margin: 25px;
+        /* border: 1px solid blue; */
+        overflow: hidden;
+        position: relative;
+        display: inline-block;
+        cursor: pointer;
+    }
+
+    .news {
+        margin-top: 1790px;
+        /* height: 300px; */
+    }
+
+        .news .content .item .box {
+            display: none;
+        }
+
+        .news .content .item img {
+            height: 100px;
+            border: 2px solid black;
+        }
+
+    .customer .content .logoCustomer img {
+        width: 50px;
+        height: 80px;
+        margin: 10px 50px;
+    }
+
+    .footer .box-container .box {
+        margin: 5px;
+        font-size: 20px;
+        width: 200px;
+    }
+
+        .footer .box-container .box img {
+            width: 50px;
+            height: 50px;
+            margin-top: 0px;
+        }
+
+        .footer .box-container .box a {
+            font-size: 13px;
+            margin-left: 0;
+        }
+
+    .footer .credit {
+        font-size: 15px;
+    }
+
+    .scroll-top img {
+        margin-right: 40px;
+        width: 50px;
+        animation: ex .3s linear infinite;
+    }
+
+    .solution {
+        width: 100%;
+        height: 600px;
+        margin-top: 50px;
+    }
+
+
+    .product .contentProduct .contentLeft {
+        margin-left: 20px;
+    }
+
+    .product .contentProduct .owl-carousel .item {
+        display: grid;
+    }
+
+    .product .contentProduct .contentRight img {
+        width: 100%;
+        margin-left: 70px;
+    }
+
+    .main_product .content .item {
+        margin-left: -15px;
+        margin-top: 50px;
+    }
+
+    .customer .content .item {
+        margin-left: -48px;
+        margin-top: 50px;
+    }
+
+
+
+    .news .owl-carousel .owl-item {
+        margin-right: 0px !important;
+        margin-left: 5px;
+    }
+
+    .news .content .item {
+        width: 200px;
+    }
+
+    .news .item .card {
+        margin-left: 50px;
+    }
+
+    .news .content .item .card .cardImg {
+        height: 110px;
+    }
+
+    .contentHome .sliderImg {
+        margin-left: 0px;
+    }
+
+    .customer .title h1 {
+        font-family: 'Josefin Sans', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 50px;
+        text-align: left;
+        margin-left: -85px;
+        color: #055235;
+    }
+
+    .customer .title img {
+        margin-left: -85px;
+        width: 200px;
+    }
+
+    .customer .title {
+        margin-left: 0px;
+    }
+
+    .customer .content {
+        margin-left: -60px;
+    }
+
+    .main_product .title h1 {
+        font-family: 'Josefin Sans', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 50px;
+        text-align: left;
+        margin-left: 13px;
+        color: #055235;
+    }
+
+    .products .item .card {
+        height: 500px;
+    }
+
+    .main_product .title_main_product .title {
+        margin-left: 0px;
+    }
+}
+
+
+
+
+/* bổ sung đoạn này */
+@media only screen and (width: 2560px) {
+
+    .product .contentProduct {
+        margin-top: 20px;
+    }
+
+        .product .contentProduct .contentLeft {
+            width: 50%;
+            float: left;
+        }
+
+        .product .contentProduct .contentRight {
+            width: 50%;
+            float: right;
+        }
+
+    .item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .product .contentProduct .contentLeft h6 {
+        text-align: left;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .content .owl-carousel .item {
+        margin-left: 0px !important;
+    }
+}

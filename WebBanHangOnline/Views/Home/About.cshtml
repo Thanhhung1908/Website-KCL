@@ -1,0 +1,76 @@
+﻿@{
+    ViewBag.Title = "About";
+}
+
+<link href="~/Content/Styles/AboutStyle.css" rel="stylesheet" />
+
+<section class="contact" id="contact"></section>
+
+<section class="content">
+    <h1>TỔNG QUAN VỀ KCL</h1>
+    <div class="thongtin">
+        <p>
+            Công ty KCL là doanh nghiệp khoa học và công nghệ chuyên cung cấp các giải pháp, sản phẩm, dịch vụ công
+            nghệ
+            thông tin và viễn thông cho các cơ quan, doanh nghiệp trong và ngoài nước.
+        </p>
+        <img src="~/Images/tongquan.png" alt="">
+        <p>
+            Với đội ngũ các kỹ sư, chuyên gia có hơn 20 năm kinh nghiệm trên các lĩnh vực, KCL là đơn vị tiên phong
+            trong việc xây dựng các nền tảng công nghệ 4.0, phục vụ cho công cuộc chuyển đổi số của đất nước.
+        </p>
+    </div>
+    <div class="contentAbout">
+        <div class="contentImg">
+            <img src="../Images/contentTQ.png" alt="">
+        </div>
+        <div class="contentList">
+            <ul>
+                <li>
+                    Tư vấn giải pháp và triển khai hệ thống hạ tầng công nghệ thông tin (data center, network...)
+                </li>
+                <li>
+                    Xây dựng phần mềm giám sát hệ thống mạng.
+                </li>
+                <li>
+                    Tư vấn giải pháp và triển khai hệ thống bệnh viện thông minh.
+                </li>
+                <li>
+                    Tư vấn giải pháp và triển khai hệ thống quản trị doanh
+                    nghiệp.
+                </li>
+                <li>
+                    Tư vấn giải pháp và triển khai các hệ thống Al, Big data theo yêu cầu khách hàng
+                </li>
+                <li>
+                    Cung cấp các dịch vụ VPS, hosting, domain,...
+                </li>
+                <li>
+                    Thiết kế Website cho các doanh nghiệp, cung cấp thiết bị công nghệ thông tin.
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="thongtin">
+        <p>
+            Công ty TNHH KCL cam kết mang đến cho khách hàng sự hài lòng tối đa bằng các sản phẩm công nghệ chất
+            lượng cao, đúng tiến độ với giá thành hợp lý nhất.
+        </p>
+    </div>
+
+</section>
+
+<script>
+
+    var btn = document.getElementById("navbar");
+    var btns = document.getElementsByClassName("lk");
+    for (var i = 0; i < btns.length; i++) {
+        btns[i].addEventListener('click', function () {
+            var current = document.getElementsByClassName("active");
+            current[0].className = current[0].className.replace("active")
+            this.className += " active"
+        })
+    }
+
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>

@@ -1,0 +1,573 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    transition: all .2s linear;
+    text-transform: capitalize;
+}
+
+.news .owl-carousel .owl-item {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.dropdown-menu.show {
+    width: 240px;
+}
+
+
+
+
+#owl-carousel {
+    display: flex;
+}
+
+/* start header */
+.modal-header .btn-close {
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.modal-body .btn-primary {
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: flex;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    z-index: 9999999999999999;
+}
+
+    header .navbar {
+        margin-top: -8px;
+    }
+
+.navbar .container-fluid {
+    background-color: #001F11;
+}
+
+.sticky .navbar .container-fluid {
+    background-color: #FFFFFF;
+}
+
+.sticky .navbar a {
+    color: #055235;
+}
+
+.navbar-brand {
+    margin-left: 50px;
+}
+
+
+header .logo {
+    width: 85px;
+    height: 65px;
+}
+
+.navbar-nav .nav-link.active {
+    color: #F5A21F;
+    background: #055235;
+    width: 100%;
+    cursor: pointer;
+}
+
+
+
+header .navbar li {
+    list-style: none;
+    cursor: pointer;
+}
+
+
+    header .navbar li a {
+        padding: 30px;
+        margin-left: 20px;
+        font-family: 'Maven Pro';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 23px;
+        color: #fff;
+        text-decoration: none;
+    }
+
+        header .navbar li a:hover {
+            color: #F5A21F;
+        }
+
+
+
+.lh {
+    text-decoration: none;
+    color: #fff;
+}
+
+    .lh:hover {
+        color: #fff;
+    }
+
+header .navbar button {
+    align-items: center;
+    padding: 16px 20px;
+    gap: 10px;
+    background: #F5A21F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px 8px 8px 30px;
+    transform: rotate(0.73deg);
+}
+
+    header .navbar button:hover {
+        background: #055235;
+        color: #fff;
+    }
+
+
+.dropdown {
+    margin-top: 28px;
+}
+
+    .dropdown a {
+        text-decoration: none;
+        color: #fff;
+        margin-left: 50px;
+        font-family: 'Maven Pro';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+    }
+
+        .dropdown a:hover {
+            color: #F5A21F;
+        }
+
+
+.navbar-expand-lg .navbar-nav .dropdown-menu .dropdown-item {
+    width: 200px;
+    color: #000;
+}
+
+/* end header */
+
+
+/* start product */
+#product {
+    background: url(/Images/bgProduct.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.product h1 {
+    font-family: 'Maven Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 94px;
+    margin: 0 auto;
+    margin-top: 200px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+
+
+/* end product */
+
+/* start describe */
+
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 3rem 2rem;
+}
+
+    .container .title {
+        font-size: 3.5rem;
+        color: #444;
+        margin-bottom: 3rem;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .container .products-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+        gap: 2rem;
+    }
+
+        .container .products-container .product {
+            text-align: center;
+            padding: 3rem 2rem;
+            background: #fff;
+            box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+            outline: .1rem solid #ccc;
+            outline-offset: -1.5rem;
+            cursor: pointer;
+        }
+
+            .container .products-container .product:hover {
+                outline: .2rem solid #222;
+                outline-offset: 0;
+            }
+
+            .container .products-container .product img {
+                height: 14rem;
+                border: 1px solid;
+            }
+
+            .container .products-container .product:hover img {
+                transform: scale(.9);
+            }
+
+            .container .products-container .product h3 {
+                padding: .5rem 0;
+                font-size: 1.5rem;
+                color: #444;
+            }
+
+            .container .products-container .product:hover h3 {
+                color: #27ae60;
+            }
+
+
+.products-preview {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-height: 100vh;
+    width: 100%;
+    background: rgba(0, 0, 0, .8);
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+    .products-preview .preview {
+        display: none;
+        padding: 2rem;
+        text-align: center;
+        background: #fff;
+        position: relative;
+        margin: 2rem;
+        width: 40rem;
+        margin-top: 30px;
+    }
+
+        .products-preview .preview.active {
+            display: inline-block;
+        }
+
+        .products-preview .preview img {
+            height: 20rem;
+            width: 30rem;
+            border: 1px solid;
+        }
+
+        .products-preview .preview .fa-times {
+            position: absolute;
+            top: 1rem;
+            right: 1.5rem;
+            cursor: pointer;
+            color: #444;
+            font-size: 4rem;
+        }
+
+            .products-preview .preview .fa-times:hover {
+                transform: rotate(90deg);
+            }
+
+        .products-preview .preview h3 {
+            color: #444;
+            padding: .5rem 0;
+            font-size: 1.8rem;
+        }
+
+        .products-preview .preview .stars {
+            padding: 1rem 0;
+            font-size: 1.7rem;
+        }
+
+            .products-preview .preview .stars i {
+                color: #27ae60;
+            }
+
+            .products-preview .preview .stars span {
+                color: #999;
+            }
+
+        .products-preview .preview p {
+            line-height: 1.5;
+            padding: 1rem 0;
+            font-size: 1.6rem;
+            color: #777;
+            text-align: justify;
+        }
+
+@media (max-width:991px) {
+
+    html {
+        font-size: 55%;
+    }
+}
+
+@media (max-width:768px) {
+
+    html {
+        font-size: 55%;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+
+    html {
+        font-size: 50%;
+    }
+
+    .container .products-container .product {
+        width: 40rem;
+    }
+
+    .products-preview .preview {
+        margin-left: -125px;
+    }
+}
+
+/* end describe */
+
+
+/* start footer */
+
+.footer {
+    background: #055235;
+    height: auto;
+}
+
+    .footer .box-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+        .footer .box-container .box {
+            margin: 25px;
+            font-family: 'Maven Pro';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 40px;
+            line-height: 30px;
+            text-indent: 5px;
+            color: #FFFFFF;
+        }
+
+            .footer .box-container .box img {
+                width: 150px;
+                height: 150px;
+                margin-top: 50px;
+            }
+
+            .footer .box-container .box a {
+                font-size: 20px;
+                color: #FFFFFF;
+                padding: 15px 0;
+                display: block;
+                text-decoration: none;
+                margin-left: 50px;
+            }
+
+    .footer a:hover {
+        text-decoration: underline;
+    }
+
+    .footer .credit {
+        font-family: 'Maven Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 30px;
+        text-align: center;
+        padding: 25px 10px;
+        color: #FFFFFF;
+        opacity: 0.7;
+    }
+
+/* end footer */
+
+.scroll-top {
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    z-index: 1000;
+}
+
+    .scroll-top img {
+        width: 50px;
+        animation: float .3s linear infinite;
+    }
+
+
+@media only screen and (max-width: 768px) {
+
+    .container-fluid .btn {
+        display: none;
+    }
+
+    header .navbar button {
+        border-radius: 8px 8px 8px 8px;
+    }
+
+    .nav-item {
+        border-bottom: 2px solid black;
+    }
+
+    .navbar-toggler {
+        margin-right: 10px;
+    }
+
+    .sticky .navbar .container-fluid {
+        background-color: #FFFFFF;
+        margin-top: 0px;
+    }
+
+    .navbar-brand {
+        margin-left: 0px;
+    }
+
+    .navbar-toggler {
+        margin-right: 60px;
+    }
+
+    .footer {
+        width: 107%;
+    }
+
+        .footer .box-container {
+            display: flex;
+            flex-wrap: inherit;
+            justify-content: center;
+        }
+
+            .footer .box-container .box {
+                margin: 5px;
+                font-family: 'Maven Pro';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 30px;
+                text-indent: 5px;
+                color: #FFFFFF;
+                width: 270px;
+            }
+
+                .footer .box-container .box img {
+                    width: 100px;
+                    height: 100px;
+                    margin-top: 0px;
+                }
+
+                .footer .box-container .box a {
+                    color: #FFFFFF;
+                    padding: 10px 0;
+                    display: block;
+                    text-decoration: none;
+                    font-size: 20px;
+                    margin-left: 0;
+                }
+
+        .footer .credit {
+            font-family: 'Maven Pro';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 25px;
+            line-height: 30px;
+            text-align: center;
+            padding: 25px 10px;
+            color: #FFFFFF;
+            opacity: 0.7;
+        }
+
+    #product {
+        width: 105%;
+        height: 600px;
+        margin: 0 auto;
+    }
+
+    .describe h4 {
+        font-size: 20px;
+        text-align: left;
+        width: 220px;
+        line-height: 35px;
+    }
+
+    .describe img {
+        width: 250px;
+        height: 250px;
+        margin-top: 20px;
+    }
+
+    .describe p {
+        font-size: 15px;
+        text-align: left;
+        margin-top: 180px;
+    }
+
+    .describe .autoDK img {
+        height: 250px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    #product {
+        width: 100%;
+    }
+
+    .container .title {
+        font-size: 2.5rem;
+    }
+
+    .describe h4 {
+        font-size: 20px;
+        text-align: left;
+        width: 180px;
+        line-height: 35px;
+    }
+
+    .describe img {
+        width: 170px;
+        height: 200px;
+        margin-top: 20px;
+    }
+
+    .describe p {
+        font-size: 20px;
+        text-align: left;
+        margin-top: 0px;
+        margin-left: 0px;
+        text-align: justify;
+    }
+
+    .describe .autoDK img {
+        height: 250px;
+    }
+}

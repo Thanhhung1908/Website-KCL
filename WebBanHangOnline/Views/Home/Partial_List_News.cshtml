@@ -1,0 +1,38 @@
+﻿@using WebBanHangOnline.Models.EF
+@model IEnumerable<WebBanHangOnline.Models.EF.New>
+
+@if (Model != null && Model.Any())
+{
+
+    <div class="titleNews">
+        <div class="title">
+            <h1>Tin Tức</h1>
+            <img src="../Images/Vector.png" alt="">
+        </div>
+        <div id="news-carousel" class="owl-carousel owl-theme" id="owl-carousel">
+            @foreach (var item in Model)
+            {
+                <div class="item">
+                    <div class="card">
+                        <img style="height: 300px;"
+                             src="@item.Image"
+                             class="card-img-top" alt="...">
+                        <div class="card-body" style="white-space: nowrap; overflow: hidden;">
+                            <h5 class="card-title" style="text-overflow: ellipsis;">
+                                <a href="@item.SeoKeywords">
+                                    @item.Title
+                                </a>
+                            </h5>
+                            <p class="card-text text-align-justify">
+                               @item.Description
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            }
+
+        </div>
+    </div>
+
+}

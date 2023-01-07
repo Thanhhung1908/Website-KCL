@@ -1,0 +1,28 @@
+﻿@model IEnumerable<WebBanHangOnline.Models.EF.Banner>
+
+
+@if (Model != null && Model.Any())
+{
+    <div class="contentHome">
+        <div id="slidemain-slide" class="owl-carousel" style="width: 100%;">
+            @foreach (var item in Model)
+            {
+                <div class="sliderImg">
+                    <img style="height: 650px;"
+                         src="@item.Image"
+                         alt="@item.Alias">
+                </div>
+            }
+        </div>
+
+
+        <!-- <div class="more">
+            <a href="#product" style="text-decoration: none;">
+                <h4>Xem thêm</h4>
+            </a>
+            <div class="btnB">
+                <img src="../Images/BtnB.png" alt="">
+            </div>
+        </div> -->
+    </div>
+}

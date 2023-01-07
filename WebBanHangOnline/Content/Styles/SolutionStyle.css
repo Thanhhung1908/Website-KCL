@@ -1,0 +1,306 @@
+
+
+/* start product */
+#solution {
+    background: url(/Images/bgSolution.png) no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.solution h1 {
+    font-family: 'Maven Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 94px;
+    margin: 0 auto;
+    margin-top: 200px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+
+
+/* end product */
+
+/* start content */
+.content {
+    width: 100%;
+}
+
+.content h1 {
+    font-family: 'Maven Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 106px;
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #001F11;
+}
+.box1{
+    width:30%;
+}
+.content p {
+    font-family: 'Maven Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 40px;
+    text-indent: 5px;
+    text-align: justify;
+    margin-left: 70px;
+    margin-right: 70px;
+    color: #001F11;
+}
+
+.content .imgContent {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.content .imgContent .box1 img {
+    width: 100%;
+    height: 450px;
+    border:solid 2px #ff0000;
+}
+
+    .content .imgContent .box2 img {
+        width: 100%;
+        height: 450px;
+        border: solid 2px #ff0000;
+    }
+
+    .content .imgContent .box3 img {
+        width: 100%;
+        height: 450px;
+        border: solid 2px #ff0000;
+    }
+
+/* end content */
+
+
+
+
+.scroll-top {
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    z-index: 1000;
+}
+
+.scroll-top img {
+    width: 50px;
+    animation: float .3s linear infinite;
+}
+
+
+@media only screen and (max-width: 768px) {
+    #solution {
+        width: 108%;
+        height: 600px;
+        margin: 0;
+    }
+    #content {
+        width: 100%;
+    }
+    .content h1 {
+        font-family: 'Maven Pro';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 50px;
+        color: #001F11;
+        width: 100%;
+    }
+    .content p {
+        font-size: 15px;
+        line-height: 20px;
+        margin-left: 10px;
+        margin-right: 0px;
+        color: #001F11;
+        width: 100%;
+    }
+
+    .content .imgContent .box1 img {
+        width: 100%;
+        height: 350px;
+    }
+    .content .imgContent .box2 img {
+        width: 100%;
+        height: 350px;
+    }
+    .content .imgContent .box3 img {
+        width: 100%;
+        height: 350px;
+    }
+
+    .container-fluid .btn {
+        display: none;
+    }
+    header .navbar button {
+        border-radius: 8px 8px 8px 8px;
+    }
+
+    .nav-item {
+        border-bottom: 2px solid black;
+    }
+
+    .navbar-toggler {
+        margin-right: 10px;
+    }
+    .sticky .navbar .container-fluid {
+        background-color: #FFFFFF;
+        margin-top: 0px;
+    }
+
+    .navbar-brand {
+        margin-left: 0px;
+    }
+    .navbar-toggler {
+        margin-right: 60px;
+    }
+    .footer {
+        width: 107%;
+    }
+
+    .footer .box-container {
+        display: flex;
+        flex-wrap: inherit;
+        justify-content: center;
+    }
+    .footer .box-container .box {
+        margin: 5px;
+        font-family: 'Maven Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        text-indent: 5px;
+        color: #FFFFFF;
+        width: 270px;
+    }
+    .footer .box-container .box img {
+        width: 100px;
+        height: 100px;
+        margin-top: 0px;
+    }
+    .footer .box-container .box a {
+        color: #FFFFFF;
+        padding: 10px 0;
+        display: block;
+        text-decoration: none;
+        font-size: 20px;
+        margin-left: 0;
+    }
+    .footer .credit {
+        font-family: 'Maven Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 30px;
+        text-align: center;
+        padding: 25px 10px;
+        color: #FFFFFF;
+        opacity: 0.7;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .content p {
+        margin-left: 2px;
+    }
+    .content .imgContent .box1 img {
+        width: 30%;
+        height: 200px;
+        left: 10px;
+        top: 1100px;
+    }
+    .content .imgContent .box2 img {
+        width: 30%;
+        height: 300px;
+        left: 150px;
+        top: 1100px;
+    }
+    .content .imgContent .box3 img {
+        width: 25%;
+        height: 450px;
+        left: 10px;
+        top: 1350px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    #solution {
+        width: 113%;
+        height: 600px;
+        margin: 0;
+    }
+    .content .imgContent .box1 img {
+        width: 100%;
+        height: 200px;
+    }
+    .content .imgContent .box2 img {
+        width: 100%;
+        height: 200px;
+
+    }
+    .content .imgContent .box3 img {
+        width: 100%;
+        height: 200px;
+
+    }
+    .footer {
+        width: 100%;
+    }
+
+    .solution h1 {
+        font-size: 60px;
+        line-height: 94px;
+        margin-top: 200px;
+    }
+    .footer .box-container .box img {
+        width: 60px;
+        height: 60px;
+        margin-top: 0px;
+    }
+    .footer .box-container .box a {
+        font-size: 10px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .footer .box-container {
+        display: flex;
+        flex-wrap: inherit;
+        justify-content: center;
+    }
+    .footer .box-container .box {
+        margin: 5px;
+        font-family: 'Maven Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        text-indent: 5px;
+        color: #FFFFFF;
+        width: 270px;
+    }
+
+    .footer .credit {
+        font-size: 10px;
+        padding: 15px 10px;
+    }
+    .scroll-top {
+        display: none;
+    }
+}

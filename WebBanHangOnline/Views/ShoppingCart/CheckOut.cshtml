@@ -1,0 +1,113 @@
+﻿@model WebBanHangOnline.Models.OrderViewModel
+@{
+    ViewBag.Title = "Thanh Toán";
+}
+
+<link rel="stylesheet" type="text/css" href="~/Content/assets/styles/categories_styles.css">
+<link rel="stylesheet" type="text/css" href="~/Content/assets/styles/categories_responsive.css">
+<script src="~/Scripts/jquery-3.4.1.js"></script>
+<script src="~/Scripts/jquery.validate.js"></script>
+<script src="~/Scripts/jquery.validate.unobtrusive.js"></script>
+<div class="container product_section_container">
+    <div class="row">
+        <div class="col product_section clearfix">
+
+            <!-- Breadcrumbs -->
+
+            <div class="breadcrumbs d-flex flex-row align-items-center">
+                <ul>
+                    <li><a href="trang-chu">Home</a></li>
+                    <li class="active"><a href="thanh-toan"><i class="fa fa-angle-right" aria-hidden="true"></i>Thanh Toán</a></li>
+                </ul>
+            </div>
+
+            <!-- Main Content -->
+            @if (ViewBag.ShoppingCart != null)
+            {
+                <div class="row">
+                    <div class="col-md-12" id="load-data">
+                        <h1 class="text-center">Thanh Toán</h1>
+                        <p class="text-center">Bạn hãy kiểm tra lại thông tin đơn hàng cho chính xác</p>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div  id="show_failure"></div>
+                    <div class="col-md-8">
+                        @using (Ajax.BeginForm("CheckOut", "ShoppingCart", new AjaxOptions
+                        {
+                            HttpMethod = "POST",
+                            UpdateTargetId = "load_data",
+                            OnComplete="OnSuccessCo",
+                            OnFailure="OnFailure"
+                        }))
+                        {
+                            @Html.AntiForgeryToken()
+                            @Html.ValidationSummary(true)
+                            <h3>Thông tin khách hàng</h3>
+                            <div class="form-group">
+                                <label>Họ tên khách hàng</label>
+                                <input type="text" name="CustomerName" id="CustomerName" autocomplete="off" class="form-control" />
+                                @Html.ValidationMessageFor(x => x.CustomerName, "", new { @class = "text-danger" })
+                            </div>
+                            <div class="form-group">
+                                <label>Số Điện Thoại</label>
+                                <input type="text" name="Phone" autocomplete="off" class="form-control" />
+                                @Html.ValidationMessageFor(x => x.Phone, "", new { @class = "text-danger" })
+
+                            </div>
+                            <div class="form-group">
+                                <label>Địa chỉ</label>
+                                <input type="text" name="Address" autocomplete="off" class="form-control" />
+                                @Html.ValidationMessageFor(x => x.Address, "", new { @class = "text-danger" })
+
+                            </div>
+                            <div class="form-group">
+                                <label>Email</label>
+                                <input type="text" name="Email" autocomplete="off" class="form-control" />
+                                @Html.ValidationMessageFor(x => x.Email, "", new { @class = "text-danger" })
+
+                            </div>
+                            <div class="form-group">
+                                <label>Hình thức thanh toán</label>
+                                <select class="form-control" name="Payment">
+                                    <option value="1" selected> COD</option>
+                                    <option value="2"> Chuyển khoản</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class=" btn btn-block btn-success">Đặt Hàng</button>
+                            </div>
+                        }
+                    </div>
+
+                    <div class="col-md-4">
+                        @Html.Action("patial_view_payment", "ShoppingCart")
+                    </div>
+                </div>
+            }
+            else
+            {
+                <p>Bạn Chưa có sản phẩm nào.Vui lòng quay lại trang <a href="san-pham"> sản phẩm</a></p>
+            }
+
+        </div>
+    </div>
+</div>
+
+@section scripts{
+
+    <script src="~/Content/assets/js/categories_custom.js"></script>
+    <script>
+        function OnFailure(rs) {
+            if (!rs.Success) {
+                $("#show_failure").html("Bạn mua hàng thất bại ,Xin vui lòng thử lại !");
+            }
+        }
+
+        $(document).ready(function () {
+
+
+        });
+    </script>
+}

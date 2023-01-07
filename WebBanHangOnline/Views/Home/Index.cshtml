@@ -1,0 +1,91 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+
+<section id="home" class="home">
+    @Html.Action("Partial_List_Banner", "Home")
+</section>
+
+<section id="product" class="product">
+    <div class="titleProduct">
+        <div class="title">
+            <h1>Sản Phẩm</h1>
+            <img src="~/Images/Vector.png" alt="">
+            </div>
+        </div>
+        <div class="contentProduct">
+            @Html.Action("Partial_List_Product", "Home")
+        </div>
+        @* <button class="btnDetail" id="product"> Chi Tiết <img src="~/Images/Icon.png" alt=""></button>*@
+</section>
+
+<section id="solution" class="solution">
+
+    @Html.Action("Partial_List_Solution", "Home")
+
+    @*   <button class="btnDetailSolution" id="solution">Chi Tiết  <img src="~/Images/Icon.png" alt=""></button>*@
+</section>
+
+@*trang tin tuc update*@
+<section id="news" class="news">
+    @Html.Action("Partial_List_News", "Home")
+
+
+</section>
+
+<section id="main_product" class="main_product">
+    @Html.Action("Partial_List_Main_Product", "Home")
+
+</section>
+
+<section id="customer" class="customer">
+    <div class="title">
+        <h1>KHÁCH HÀNG CỦA CHÚNG TÔI</h1>
+        <img src="../Images/Vector.png" alt="">
+    </div>
+    <div class="content">
+
+        <div id="slideCustomer-slide" class="owl-carousel owl-theme" id="owl-carousel">
+            <div class="item">
+                <div class="logoCustomer">
+                    <a href=""><img src="../Images/logo_DSP.png" alt=""></a>
+                </div>
+            </div>
+            <div class="item">
+                <div class="logoCustomer">
+                    <a href=""><img src="../Images/logo_FPT.png" alt=""></a>
+                </div>
+            </div>
+            <div class="item">
+                <div class="logoCustomer">
+                    <a href=""><img src="../Images/logo_nhathuoc.png" alt=""></a>
+                </div>
+            </div>
+            <div class="item">
+                <div class="logoCustomer">
+                    <a href=""><img src="../Images/logo_DSP.png" alt=""></a>
+                </div>
+            </div>
+            <div class="item">
+                <div class="logoCustomer">
+                    <a href=""><img src="../Images/logo_FPT.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- <div class="benhvien">
+        <p>Bệnh viện Y học Cổ truyền là ..............................................................</p>
+    </div> -->
+</section>
+
+
+<script type="text/javascript">
+    document.getElementById("solution").onclick = function () {
+        location.href = "/giai-phap";
+    };
+    document.getElementById("product").onclick = function () {
+        location.href = "/san-pham";
+    };
+</script>

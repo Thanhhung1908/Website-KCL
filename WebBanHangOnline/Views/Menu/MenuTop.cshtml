@@ -1,0 +1,34 @@
+﻿@model IEnumerable<WebBanHangOnline.Models.EF.Category>
+
+
+@if (Model != null && Model.Any())
+{
+    
+    
+<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+    @Html.Action("Menu_DanhMuc_Header", "Menu")
+
+    @foreach (var item in Model)
+    {
+        <li class="nav-item">
+            <a class="nav-link" href="/@item.Alias">@item.Title</a>
+        </li>
+    }
+
+</ul>
+
+}
+
+<script>
+    var object = document.getElementsByClassName("dropdown")[0];
+
+    object.addEventListener("mouseover", myScript);
+    function myScript() {
+        document.getElementsByClassName("dropdown-menu")[0].classList.add("show")
+    }
+    object.addEventListener("mouseout", function mouseout() {
+        document.getElementsByClassName("dropdown-menu")[0].classList.remove("show")
+
+    });
+
+</script>

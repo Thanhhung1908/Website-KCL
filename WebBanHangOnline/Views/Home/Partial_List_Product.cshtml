@@ -1,0 +1,74 @@
+﻿@model IEnumerable<WebBanHangOnline.Models.EF.Product>
+
+
+@if (Model != null && Model.Any())
+{
+    <div id="slideproduct-slide" class="owl-carousel owl-theme">
+        @foreach (var item in Model)
+        {
+            var danhmuc = item.ProductCategory.Title;
+            var strImage = "";
+            var img = item.ProductImage.FirstOrDefault(x => x.IsDefault);
+            if (img != null)
+            {
+                strImage = img.Image;
+                <div class="item">
+                    <div class="contentLeft">
+                        <h2>@item.Title</h2>
+                        <h6>@danhmuc</h6>
+                        <p>
+                            @item.Description
+                        </p>
+                    </div>
+                    <div class="contentRight">
+                        <img src="@strImage" alt="@item.Alias" class="w-100 d-block">
+                    </div>
+                </div>
+            }
+        }
+        @*<div class="item">
+            <div class="contentLeft">
+                <h2>Hệ thống nhận diện quản lý vào ra tại các tòa nhà</h2>
+                <h6>Dự án phần mềm</h6>
+                <p>
+                    Sản phẩm là sự hợp tác giữa công ty TNHH Phát triển Công nghệ và Thương mại Dịch vụ KCL
+                    với Trung tâm
+                    Phát triển hạ tầng CNTT TP.Đà Nẵng....
+                </p>
+            </div>
+            <div class="contentRight">
+                <img src="~/Images/sanpham1.png" class="w-100 d-block" alt="First slide">
+            </div>
+        </div>
+        <div class="item">
+            <div class="contentLeft">
+                <h2>Hệ thống nhận diện quản lý vào ra tại các tòa nhà</h2>
+                <h6>Dự án phần mềm</h6>
+                <p>
+                    Sản phẩm là sự hợp tác giữa công ty TNHH Phát triển Công nghệ và Thương mại Dịch vụ KCL
+                    với Trung tâm
+                    Phát triển hạ tầng CNTT TP.Đà Nẵng....
+                </p>
+            </div>
+            <div class="contentRight">
+                <img src="https://i.pinimg.com/564x/78/ec/78/78ec78a6c29e95ca0ff7ce2283af8ceb.jpg"
+                     class="w-100 d-block" alt="First slide">
+            </div>
+        </div>
+        <div class="item">
+            <div class="contentLeft">
+                <h2>Hệ thống nhận diện quản lý vào ra tại các tòa nhà</h2>
+                <h6>Dự án phần mềm</h6>
+                <p>
+                    Sản phẩm là sự hợp tác giữa công ty TNHH Phát triển Công nghệ và Thương mại Dịch vụ KCL
+                    với Trung tâm
+                    Phát triển hạ tầng CNTT TP.Đà Nẵng....
+                </p>
+            </div>
+            <div class="contentRight">
+                <img src="https://cdn.24h.com.vn/upload/4-2022/images/2022-11-24/255x170/000_32rn9nq-1669242174-951-width740height555_anh_cat_3_2.jpg"
+                     class="w-100 d-block" alt="First slide">
+            </div>
+        </div>*@
+    </div>
+}

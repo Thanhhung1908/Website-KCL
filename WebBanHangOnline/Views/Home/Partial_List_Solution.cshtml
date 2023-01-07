@@ -1,0 +1,29 @@
+﻿@model IEnumerable<WebBanHangOnline.Models.EF.Post>
+
+
+@if (Model != null && Model.Any())
+{
+    <div class="titleSolution">
+        <div class="title">
+            <h1>Giải Pháp</h1>
+            <img src="~/Images/Vector.png" alt="">
+        </div>
+        <p class="content">
+            @ViewBag.slogan
+        </p>
+    </div>
+    <div class="container">
+        <div class="wrapper">
+            @foreach (var item in Model)
+            {
+                <div class="parent" onclick="" >
+                    <div class="child" style=" width: 100%; background-image: url(@item.Image);">
+                        <a href="#">@item.Title</a>
+                    </div>
+                </div>
+            }
+          
+        </div>
+    </div>
+}
+

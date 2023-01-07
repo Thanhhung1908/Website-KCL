@@ -1,0 +1,319 @@
+﻿@model IEnumerable<WebBanHangOnline.Models.EF.Product>
+@{
+    ViewBag.Title = "Danh Mục Sản Phẩm";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link href="~/Content/Styles/ProductStyle.css" rel="stylesheet" />
+<section id="product" class="product">
+    <h1>sản phẩm</h1>
+</section>
+@*@if (Model != null && Model.Any())
+    {
+        <section id="describe" class="describe">
+            <div class="container">
+                @{
+                    int index = 0;
+                    foreach (var item in Model)
+                    {
+                        var strImage = "";
+                        var img = item.ProductImage.FirstOrDefault(x => x.IsDefault);
+                        if (img != null)
+                        {
+                            strImage = img.Image;
+
+                            if (index % 2 == 0)
+                            {
+
+                                <div class="row boxLeft"style="border: 1px solid; padding: 10px; box-shadow: 5px 10px #888888;">
+                                    <div class="col-6">
+                                        <h4>@item.Title </h4>
+                                        <img src="@strImage" alt="@item.Alias">
+                                    </div>
+                                    <div class="col-6">
+                                        <p style="font-size:20px">@item.Description</p>
+                                    </div>
+                                </div>
+
+                            }
+
+                            else
+                            {
+                                <div class="row boxRight"style="border: 1px solid; padding: 10px; box-shadow: 5px 10px #888888;">
+                                    <div class="col-6">
+                                        <p style="font-size:20px">@item.Description</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <h4>@item.Title </h4>
+                                        <img src="@strImage" alt="@item.Alias">
+                                    </div>
+                                </div>
+                            }
+                            index++;
+                        }
+                    }
+                }
+            </div>
+        </section>
+    }
+    @section scripts{
+    }*@
+
+
+<section id="describe" class="describe">
+
+    <div class="container">
+
+        <h3 class="title"> Sản Phẩm Website1 </h3>
+
+        <div class="products-container">
+            
+            <div class="product" data-name="p-1">
+                <img src="~/Images/phanmemBV1.png" alt="">
+                <h3>Phần mềm khai báo y tế tại BV Hòa Vang,Cẩm Lệ, Ngũ Hành Sơn</h3>
+                <!-- <div class="price">$2.00</div> -->
+            </div>
+
+            <div class="product" data-name="p-2">
+                <img src="~/Images/phanmemBV1.png" alt="">
+                <h3>Phần mềm kết nối máy xét nghiệm BV Cẩm Lệ</h3>
+                <!-- <div class="price">$2.00</div> -->
+            </div>
+
+            <div class="product" data-name="p-3">
+                <img src="../Images/Phần mềm quản lý chấm công BV Hòa Vang.png" alt="">
+                <h3>Phần mềm quản lý chấm công BV Hòa Vang</h3>
+                <!-- <div class="price">$2.00</div> -->
+            </div>
+
+            <div class="product" data-name="p-4">
+                <img src="../Images/phần mềm quản lý dinh dưỡng tại BV Ung bướu Đà Nẵng.png" alt="">
+                <h3>Phần mềm quản lý dinh dưỡng tại BV Ung bướu Đà Nẵng</h3>
+                <!-- <div class="price">$2.00</div> -->
+            </div>
+
+            <div class="product" data-name="p-5">
+                <img src="../Images/Phần mềm quản lý hàng đợi BV YHCT.jpg" alt="">
+                <h3>Phần mềm quản lý hàng đợi BV YHCT</h3>
+                <!-- <div class="price">$2.00</div> -->
+            </div>
+
+            <div class="product" data-name="p-6">
+                <img src="../Images/Phần mềm quản lý đào tạo BV Hòa Vang.png" alt="">
+                <h3>Phần mềm quản lý đào tạo BV Hòa Vang</h3>
+                <!-- <div class="price">$2.00</div> -->
+            </div>
+
+            <div class="product" data-name="p-7">
+                <img src="../Images/Phần mềm số hóa hồ sơ bệnh án BV Cẩm Lệ.png" alt="">
+                <h3>Phần mềm số hóa hồ sơ bệnh án BV Cẩm Lệ</h3>
+                <!-- <div class="price">$2.00</div> -->
+            </div>
+
+            <div class="product" data-name="p-8">
+                <img src="../Images/phần mềm Đồng bộ đơn thuốc điện tử quốc gia.png" alt="">
+                <h3>phần mềm Đồng bộ đơn thuốc điện tử quốc gia</h3>
+                <!-- <div class="price">$2.00</div> -->
+            </div>
+
+            <div class="product" data-name="p-9">
+                <img src="../Images/phần mềm quản lý khai báo y tế bv Ung bướu.png" alt="">
+                <h3>phần mềm quản lý khai báo y tế bv Ung bướu</h3>
+                <!-- <div class="price">$2.00</div> -->
+            </div>
+        </div>
+
+    </div>
+
+    <div class="products-preview" style="margin-top: 50px;">
+
+        <div class="preview" data-target="p-1">
+            <i class="fas fa-times"></i>
+            <img src="../Images/Phần mềm khai báo y tế tại BV Hòa Vang,Cẩm Lệ, Ngũ Hành Sơn.png" alt="">
+            <h3>Phần mềm khai báo y tế tại BV Hòa Vang,Cẩm Lệ, Ngũ Hành Sơn</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem aspernatur unde sint hic
+                laborum. Iure harum, eaque rem perspiciatis aspernatur, modi impedit corporis cum minima est
+                suscipit quas, sed necessitatibus.
+            </p>
+        </div>
+
+        <div class="preview" data-target="p-2">
+            <i class="fas fa-times"></i>
+            <img src="../Images/Phần mềm kết nối máy xét nghiệm BV Cẩm Lệ.png" alt="">
+            <h3>Phần mềm kết nối máy xét nghiệm BV Cẩm Lệ</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque corporis ullam recusandae, dolorem
+                rerum eveniet sint maxime exercitationem commodi tempora voluptatibus architecto nihil ipsa
+                similique rem magni pariatur aperiam accusantium!
+            </p>
+        </div>
+
+        <div class="preview" data-target="p-3">
+            <i class="fas fa-times"></i>
+            <img src="../Images/Phần mềm quản lý chấm công BV Hòa Vang.png" alt="">
+            <h3>Phần mềm quản lý chấm công BV Hòa Vang</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque corporis ullam recusandae, dolorem
+                rerum eveniet sint maxime exercitationem commodi tempora voluptatibus architecto nihil ipsa
+                similique rem magni pariatur aperiam accusantium!
+            </p>
+        </div>
+
+        <div class="preview" data-target="p-4">
+            <i class="fas fa-times"></i>
+            <img src="../Images/phần mềm quản lý dinh dưỡng tại BV Ung bướu Đà Nẵng.png" alt="">
+            <h3>Phần mềm quản lý dinh dưỡng tại BV Ung bướu Đà Nẵng</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque corporis ullam recusandae, dolorem
+                rerum eveniet sint maxime exercitationem commodi tempora voluptatibus architecto nihil ipsa
+                similique rem magni pariatur aperiam accusantium!
+            </p>
+        </div>
+
+        <div class="preview" data-target="p-5">
+            <i class="fas fa-times"></i>
+            <img src="../Images/Phần mềm quản lý hàng đợi BV YHCT.jpg" alt="">
+            <h3>Phần mềm quản lý hàng đợi BV YHCT</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae iusto, tempora, laboriosam quisquam
+                magnam dolor quasi perferendis, numquam eligendi ut maiores aperiam ducimus dicta quidem rem harum
+                aut magni. Eius?
+            </p>
+        </div>
+
+        <div class="preview" data-target="p-6">
+            <i class="fas fa-times"></i>
+            <img src="../Images/Phần mềm quản lý đào tạo BV Hòa Vang.png" alt="">
+            <h3>Phần mềm quản lý đào tạo BV Hòa Vang</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, quia sunt nemo iure ducimus ipsa
+                dolorem dignissimos voluptatibus, similique, explicabo natus iusto! Quos minus quisquam esse
+                veritatis officia asperiores quo?
+            </p>
+        </div>
+
+        <div class="preview" data-target="p-7">
+            <i class="fas fa-times"></i>
+            <img src="../Images/Phần mềm số hóa hồ sơ bệnh án BV Cẩm Lệ.png" alt="">
+            <h3>Phần mềm số hóa hồ sơ bệnh án BV Cẩm Lệ</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti eum modi reprehenderit facilis,
+                mollitia aliquam cupiditate laudantium et! Numquam dicta provident pariatur natus nisi soluta nam
+                magnam, enim tenetur obcaecati!
+            </p>
+        </div>
+
+        <div class="preview" data-target="p-8">
+            <i class="fas fa-times"></i>
+            <img src="../Images/phần mềm Đồng bộ đơn thuốc điện tử quốc gia.png" alt="">
+            <h3>phần mềm Đồng bộ đơn thuốc điện tử quốc gia</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti eum modi reprehenderit facilis,
+                mollitia aliquam cupiditate laudantium et! Numquam dicta provident pariatur natus nisi soluta nam
+                magnam, enim tenetur obcaecati!
+            </p>
+        </div>
+
+        <div class="preview" data-target="p-9">
+            <i class="fas fa-times"></i>
+            <img src="../Images/phần mềm quản lý khai báo y tế bv Ung bướu.png" alt="">
+            <h3>phần mềm quản lý khai báo y tế bv Ung bướu</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic reprehenderit minus eius eos aliquid
+                voluptas maiores vero fugit doloribus doloremque cum ad aliquam consequuntur culpa quasi quas,
+                suscipit autem. Veritatis?
+            </p>
+        </div>
+
+    </div>
+</section>
+
+
+<script>
+    let preveiwContainer = document.querySelector('.products-preview');
+    let previewBox = preveiwContainer.querySelectorAll('.preview');
+
+    document.querySelectorAll('.products-container .product').forEach(product => {
+        product.onclick = () => {
+            preveiwContainer.style.display = 'flex';
+            let name = product.getAttribute('data-name');
+            previewBox.forEach(preview => {
+                let target = preview.getAttribute('data-target');
+                if (name == target) {
+                    preview.classList.add('active');
+                }
+            });
+        };
+    });
+
+    previewBox.forEach(close => {
+        close.querySelector('.fa-times').onclick = () => {
+            close.classList.remove('active');
+            preveiwContainer.style.display = 'none';
+        };
+    });
+</script>

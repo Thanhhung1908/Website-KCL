@@ -1,0 +1,317 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+}
+
+
+
+.truso {
+    background: url(/Images/bgtruso.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+.content img {
+    width: 100%;
+    height: 800px;
+}
+
+.content .logo img {
+    width: 250px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.content .tieude {
+    font-family: 'Maven Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-indent: 5px;
+    color: #06750C;
+    margin: 20px;
+}
+
+.content .noidung {
+    font-family: 'Maven Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-indent: 5px;
+    margin: 20px;
+    color: #06750C;
+}
+
+.content .giamdoc {
+    font-family: 'Maven Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    align-items: flex-end;
+    text-indent: 5px;
+    color: #001F11;
+}
+
+.content .giamdoc h2 {
+    font-family: 'Maven Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 30px;
+    display: flex;
+    align-items: flex-end;
+    text-indent: 5px;
+    color: #E3322B;
+    margin-left: 50px;
+}
+
+
+.content .trusochinh {
+    font-family: 'Maven Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    align-items: flex-end;
+    text-indent: 5px;
+    color: #001F11;
+}
+
+.content .trusochinh p {
+    font-family: 'Maven Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: flex-end;
+    text-indent: 5px;
+    color: #001F11;
+    margin-left: 50px;
+}
+
+.content .vanphongdaidien {
+    font-family: 'Maven Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    align-items: flex-end;
+    text-indent: 5px;
+    color: #001F11;
+}
+
+.content .vanphongdaidien p {
+    font-family: 'Maven Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: flex-end;
+    text-indent: 5px;
+    color: #001F11;
+    margin-left: 50px;
+}
+
+
+
+
+
+.scroll-top {
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    z-index: 1000;
+}
+
+.scroll-top img {
+    width: 50px;
+    animation: float .3s linear infinite;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .container-fluid .btn {
+        display: none;
+    }
+    header .navbar button {
+        border-radius: 8px 8px 8px 8px;
+    }
+
+    .nav-item {
+        border-bottom: 2px solid black;
+    }
+
+    .navbar-toggler {
+        margin-right: 10px;
+    }
+    .sticky .navbar .container-fluid {
+        background-color: #FFFFFF;
+        margin-top: 0px;
+    }
+
+    .navbar-brand {
+        margin-left: 0px;
+    }
+    .navbar-toggler {
+        margin-right: 60px;
+    }
+    .footer {
+        width: 107%;
+    }
+
+    .footer .box-container {
+        display: flex;
+        flex-wrap: inherit;
+        justify-content: center;
+    }
+    .footer .box-container .box {
+        margin: 5px;
+        font-family: 'Maven Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        text-indent: 5px;
+        color: #FFFFFF;
+        width: 270px;
+    }
+    .footer .box-container .box img {
+        width: 100px;
+        height: 100px;
+        margin-top: 0px;
+    }
+    .footer .box-container .box a {
+        color: #FFFFFF;
+        padding: 10px 0;
+        display: block;
+        text-decoration: none;
+        font-size: 20px;
+        margin-left: 0;
+    }
+    .footer .credit {
+        font-family: 'Maven Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 30px;
+        text-align: center;
+        padding: 25px 10px;
+        color: #FFFFFF;
+        opacity: 0.7;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .container-fluid .btn {
+        display: none;
+    }
+    header .navbar button {
+        border-radius: 8px 8px 8px 8px;
+    }
+
+    .nav-item {
+        border-bottom: 2px solid black;
+    }
+
+    .navbar-toggler {
+        margin-right: 10px;
+    }
+    .sticky .navbar .container-fluid {
+        background-color: #FFFFFF;
+        margin-top: 0px;
+    }
+
+    .navbar-brand {
+        margin-left: 0px;
+    }
+    .navbar-toggler {
+        margin-right: 60px;
+    }
+    .footer {
+        width: 107%;
+    }
+
+    .footer .box-container {
+        display: flex;
+        flex-wrap: inherit;
+        justify-content: center;
+    }
+    .footer .box-container .box {
+        margin: 5px;
+        font-family: 'Maven Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        text-indent: 5px;
+        color: #FFFFFF;
+        width: 270px;
+    }
+    .footer .box-container .box img {
+        width: 100px;
+        height: 100px;
+        margin-top: 0px;
+    }
+    .footer .box-container .box a {
+        color: #FFFFFF;
+        padding: 10px 0;
+        display: block;
+        text-decoration: none;
+        font-size: 20px;
+        margin-left: 0;
+    }
+    .footer .credit {
+        font-family: 'Maven Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 30px;
+        text-align: center;
+        padding: 25px 10px;
+        color: #FFFFFF;
+        opacity: 0.7;
+    }
+    .content .logo img {
+        width: 200px;
+        height: 150px;
+    }
+    .content .tieude {
+        font-size: 22px;
+        line-height: 25px;
+        margin: 20px;
+    }
+    .content .noidung {
+        font-size: 15px;
+        line-height: 20px;
+        margin: 20px;
+    }
+    .content .giamdoc h2 {
+        font-size: 25px;
+    }
+}

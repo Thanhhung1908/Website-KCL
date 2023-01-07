@@ -1,0 +1,790 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+}
+
+/* start header */
+
+header {
+    width: 100%;
+    position: fixed;
+    z-index: 9999999999999999;
+}
+
+    header .navbar {
+        margin-top: -8px;
+    }
+
+.navbar .container-fluid {
+    background-color: #001F11;
+}
+
+.sticky .navbar .container-fluid {
+    background-color: #FFFFFF;
+    /* margin-top: 35px; */
+}
+
+.sticky .navbar a {
+    color: #055235;
+}
+
+.navbar-brand {
+    margin-left: 50px;
+}
+
+
+header .logo {
+    width: 85px;
+    height: 65px;
+}
+
+.navbar-nav .nav-link.active {
+    color: #F5A21F;
+    background: #055235;
+    width: 100%;
+    cursor: pointer;
+}
+
+
+
+header .navbar li {
+    list-style: none;
+    cursor: pointer;
+    padding-left: 25px;
+}
+
+
+    header .navbar li a {
+        padding: 30px;
+        margin-left: 20px;
+        font-family: 'Maven Pro';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 23px;
+        color: #fff;
+        text-decoration: none;
+    }
+
+        header .navbar li a:hover {
+            color: #F5A21F;
+            background: #055235;
+        }
+
+
+
+.lh {
+    text-decoration: none;
+    color: #fff;
+}
+
+    .lh:hover {
+        color: #fff;
+    }
+
+header .navbar button {
+    align-items: center;
+    padding: 16px 20px;
+    gap: 10px;
+    background: #F5A21F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px 8px 8px 30px;
+    transform: rotate(0.73deg);
+}
+
+    header .navbar button:hover {
+        background: #055235;
+        color: #fff;
+    }
+
+/* end header */
+
+
+#vision {
+    background: url(/Images/bgtamnhin.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.vision h1 {
+    font-family: 'Maven Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 95px;
+    margin-top: 140px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+
+/* start content */
+.content {
+    width: 100%;
+    height: 800px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+    .content .box {
+        margin-left: 30px;
+    }
+
+
+
+    .content .box1 {
+        position: relative;
+        width: 400px;
+        height: auto;
+        background: url("/Images/orange.png");
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+
+        .content .box1 img {
+            margin-top: 950px;
+            margin-left: 50px;
+            width: 280px;
+            height: 80px;
+            transform: matrix(-1, 0, 0.04, -1, 0, 0);
+        }
+
+        .content .box1 p {
+            position: absolute;
+            top: 100px;
+            left: 20px;
+            right: 20px;
+            font-family: 'Maven Pro';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 30px;
+            display: flex;
+            align-items: center;
+            text-align: justify;
+            text-indent: 5px;
+            color: #FFFFFF;
+        }
+
+        .content .box1 .circle {
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            background: #FFFFFF;
+            border: 1px solid #000000;
+            filter: blur(5px);
+            position: absolute;
+            top: 650px;
+            left: 55px;
+        }
+
+        .content .box1 .circleSmall {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            border: 15px solid #FF6B00;
+            position: absolute;
+            top: 680px;
+            left: 80px;
+            z-index: 99999;
+        }
+
+            .content .box1 .circleSmall p {
+                position: absolute;
+                top: 100px;
+                left: 50px;
+                z-index: 9999999;
+                font-family: 'Maven Pro';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 25px;
+                text-transform: uppercase;
+                color: #FF6B00;
+            }
+
+    .content .box2 {
+        position: relative;
+        width: 400px;
+        height: auto;
+        background: url("/Images/green.png");
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+
+        .content .box2 img {
+            margin-top: 950px;
+            margin-left: 50px;
+            width: 280px;
+            height: 80px;
+            transform: matrix(-1, 0, 0.04, -1, 0, 0);
+        }
+
+        .content .box2 p {
+            position: absolute;
+            top: 100px;
+            left: 20px;
+            right: 20px;
+            font-family: 'Maven Pro';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 30px;
+            display: flex;
+            align-items: center;
+            text-align: justify;
+            text-indent: 5px;
+            color: #FFFFFF;
+        }
+
+        .content .box2 .circle {
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            background: #FFFFFF;
+            border: 1px solid #000000;
+            filter: blur(5px);
+            position: absolute;
+            top: 650px;
+            left: 50px;
+        }
+
+        .content .box2 .circleSmall {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            border: 15px solid #06750C;
+            position: absolute;
+            top: 680px;
+            left: 80px;
+            z-index: 99999;
+        }
+
+            .content .box2 .circleSmall p {
+                position: absolute;
+                top: 100px;
+                left: 50px;
+                z-index: 9999999;
+                font-family: 'Maven Pro';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 25px;
+                text-transform: uppercase;
+                color: #06750C;
+            }
+
+    .content .box3 {
+        position: relative;
+        width: 400px;
+        height: auto;
+        background: url("/Images/red.png");
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+
+        .content .box3 img {
+            margin-top: 950px;
+            margin-left: 50px;
+            width: 280px;
+            height: 80px;
+            transform: matrix(-1, 0, 0.04, -1, 0, 0);
+        }
+
+        .content .box3 p {
+            position: absolute;
+            top: 100px;
+            left: 20px;
+            right: 20px;
+            font-family: 'Maven Pro';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 30px;
+            display: flex;
+            align-items: center;
+            text-align: justify;
+            text-indent: 5px;
+            color: #FFFFFF;
+        }
+
+        .content .box3 .circle {
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            background: #FFFFFF;
+            border: 1px solid #000000;
+            filter: blur(5px);
+            position: absolute;
+            top: 650px;
+            left: 50px;
+        }
+
+        .content .box3 .circleSmall {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            border: 15px solid #E3322B;
+            position: absolute;
+            top: 680px;
+            left: 80px;
+            z-index: 99999;
+        }
+
+            .content .box3 .circleSmall p {
+                position: absolute;
+                top: 70px;
+                left: 38px;
+                z-index: 9999999;
+                font-family: 'Maven Pro';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 25px;
+                line-height: 40px;
+                display: flex;
+                align-items: flex-end;
+                text-align: center;
+                text-indent: 5px;
+                text-transform: uppercase;
+                color: #ED3237;
+            }
+
+/* end content */
+
+
+/* start footer */
+
+.footer {
+    margin-top: 300px;
+    background: #055235;
+    height: auto;
+}
+
+    .footer .box-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+        .footer .box-container .box {
+            margin: 25px;
+            font-family: 'Maven Pro';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 40px;
+            line-height: 30px;
+            text-indent: 5px;
+            color: #FFFFFF;
+        }
+
+            .footer .box-container .box img {
+                width: 150px;
+                height: 150px;
+                margin-top: 50px;
+            }
+
+            .footer .box-container .box a {
+                font-size: 20px;
+                color: #FFFFFF;
+                padding: 15px 0;
+                display: block;
+                text-decoration: none;
+                margin-left: 50px;
+            }
+
+    .footer a:hover {
+        text-decoration: underline;
+    }
+
+    .footer .credit {
+        font-family: 'Maven Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 30px;
+        text-align: center;
+        padding: 25px 10px;
+        color: #FFFFFF;
+        opacity: 0.7;
+    }
+
+/* end footer */
+
+.scroll-top {
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    z-index: 1000;
+}
+
+    .scroll-top img {
+        width: 50px;
+        animation: float .3s linear infinite;
+    }
+
+
+@media only screen and (max-width: 768px) {
+
+    .container-fluid .btn {
+        display: none;
+    }
+
+    header .navbar button {
+        border-radius: 8px 8px 8px 8px;
+    }
+
+    .nav-item {
+        border-bottom: 2px solid black;
+    }
+
+    .navbar-toggler {
+        margin-right: 10px;
+    }
+
+    .sticky .navbar .container-fluid {
+        background-color: #FFFFFF;
+        margin-top: 0px;
+    }
+
+    .navbar-brand {
+        margin-left: 0px;
+    }
+
+    .navbar-toggler {
+        margin-right: 60px;
+    }
+
+    .footer {
+        width: 95%;
+    }
+
+        .footer .box-container {
+            display: flex;
+            flex-wrap: inherit;
+            justify-content: center;
+        }
+
+            .footer .box-container .box {
+                margin: 5px;
+                font-family: 'Maven Pro';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 30px;
+                text-indent: 5px;
+                color: #FFFFFF;
+                width: 270px;
+            }
+
+                .footer .box-container .box img {
+                    width: 100px;
+                    height: 100px;
+                    margin-top: 0px;
+                }
+
+                .footer .box-container .box a {
+                    color: #FFFFFF;
+                    padding: 10px 0;
+                    display: block;
+                    text-decoration: none;
+                    font-size: 20px;
+                    margin-left: 0;
+                }
+
+        .footer .credit {
+            font-family: 'Maven Pro';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 25px;
+            line-height: 30px;
+            text-align: center;
+            padding: 25px 10px;
+            color: #FFFFFF;
+            opacity: 0.7;
+        }
+
+
+    #vision {
+        background-attachment: inherit;
+    }
+
+    .vision h1 {
+        font-size: 38px;
+        line-height: 60px;
+        margin-top: 196px;
+        margin-left: 60px;
+    }
+
+    .content {
+        width: 50%;
+        height: 800px;
+        margin-top: 100px;
+    }
+
+        .content .box1 {
+            position: relative;
+            width: 200px;
+            height: auto;
+            left: 150px;
+        }
+
+        .content .box2 {
+            position: relative;
+            width: 200px;
+            height: auto;
+            left: 150px;
+        }
+
+        .content .box3 {
+            position: relative;
+            width: 200px;
+            height: auto;
+            left: 150px;
+        }
+
+
+        .content .box1 p {
+            font-size: 15px;
+            line-height: 30px;
+        }
+
+        .content .box2 p {
+            font-size: 15px;
+            line-height: 30px;
+        }
+
+        .content .box3 p {
+            font-size: 15px;
+            line-height: 30px;
+        }
+
+        .content .box1 .circle {
+            width: 200px;
+            height: 200px;
+            top: 650px;
+            left: 0;
+        }
+
+        .content .box1 .circleSmall {
+            width: 180px;
+            height: 180px;
+            top: 660px;
+            left: 7px;
+        }
+
+            .content .box1 .circleSmall p {
+                top: 50px;
+                left: 50px;
+                font-size: 20px;
+                color: #FF6B00;
+            }
+
+        .content .box2 .circle {
+            width: 200px;
+            height: 200px;
+            top: 650px;
+            left: 0;
+        }
+
+        .content .box2 .circleSmall {
+            width: 180px;
+            height: 180px;
+            top: 660px;
+            left: 7px;
+        }
+
+            .content .box2 .circleSmall p {
+                top: 50px;
+                left: 50px;
+                font-size: 20px;
+                color: #06750C;
+            }
+
+        .content .box3 .circle {
+            width: 200px;
+            height: 200px;
+            top: 650px;
+            left: 0;
+        }
+
+        .content .box3 .circleSmall {
+            width: 180px;
+            height: 180px;
+            top: 660px;
+            left: 7px;
+        }
+
+            .content .box3 .circleSmall p {
+                top: 40px;
+                left: 35px;
+                font-size: 15px;
+                color: red;
+            }
+
+        .content .box1 img {
+            margin-top: 850px;
+            margin-left: 0px;
+            width: 280px;
+            height: 80px;
+        }
+
+        .content .box1 img {
+            margin-top: 850px;
+            margin-left: 0px;
+            width: 220px;
+            height: 55px;
+        }
+
+        .content .box2 img {
+            margin-top: 850px;
+            margin-left: 0px;
+            width: 220px;
+            height: 55px;
+        }
+
+        .content .box3 img {
+            margin-top: 850px;
+            margin-left: 0px;
+            width: 220px;
+            height: 55px;
+        }
+}
+
+@media only screen and (max-width: 425px) {
+    #vision {
+        width: 105%;
+    }
+
+    .footer {
+        width: 105%;
+    }
+
+    .content .box1 {
+        position: relative;
+        width: 140px;
+        height: auto;
+        left: 130px;
+    }
+
+    .content .box2 {
+        position: relative;
+        width: 140px;
+        height: auto;
+        left: 105px;
+    }
+
+    .content .box3 {
+        position: relative;
+        width: 140px;
+        height: auto;
+        left: 80px;
+    }
+
+    .content .box1 p {
+        font-size: 10px;
+        line-height: 30px;
+    }
+
+    .content .box2 p {
+        font-size: 10px;
+        line-height: 30px;
+    }
+
+    .content .box3 p {
+        font-size: 10px;
+        line-height: 30px;
+    }
+
+
+    .content .box1 .circle {
+        width: 150px;
+        height: 150px;
+        top: 700px;
+        left: 0;
+    }
+
+    .content .box1 .circleSmall {
+        width: 140px;
+        height: 140px;
+        top: 700px;
+        left: 7px;
+    }
+
+        .content .box1 .circleSmall p {
+            top: 30px;
+            left: 35px;
+            font-size: 15px;
+            color: #FF6B00;
+        }
+
+    .content .box2 .circle {
+        width: 150px;
+        height: 150px;
+        top: 700px;
+        left: 0;
+    }
+
+    .content .box2 .circleSmall {
+        width: 140px;
+        height: 140px;
+        top: 700px;
+        left: 7px;
+    }
+
+        .content .box2 .circleSmall p {
+            top: 30px;
+            left: 35px;
+            font-size: 15px;
+            color: #055235;
+        }
+
+    .content .box3 .circle {
+        width: 150px;
+        height: 150px;
+        top: 700px;
+        left: 0;
+    }
+
+    .content .box3 .circleSmall {
+        width: 140px;
+        height: 140px;
+        top: 700px;
+        left: 7px;
+    }
+
+        .content .box3 .circleSmall p {
+            top: 25px;
+            left: 30px;
+            font-size: 10px;
+            color: red;
+        }
+
+    .content .box1 img {
+        width: 150px;
+        height: 40px;
+    }
+
+    .content .box2 img {
+        width: 150px;
+        height: 40px;
+    }
+
+    .content .box3 img {
+        width: 150px;
+        height: 40px;
+    }
+}

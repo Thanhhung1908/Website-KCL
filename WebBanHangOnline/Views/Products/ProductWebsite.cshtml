@@ -1,0 +1,94 @@
+﻿@model IEnumerable<WebBanHangOnline.Models.EF.Product>
+
+@{
+    ViewBag.Title = "ProductWebsite";
+}
+
+<link href="~/Content/Styles/WebsiteProductStyle.css" rel="stylesheet" />
+<section id="product" class="product">
+    <h1>sản phẩm</h1>
+</section>
+<section class="content MainProduct">
+    @if (Model != null && Model.Any())
+    {
+        <div class="container">
+
+            <div class="row">
+                <h1 style="margin-top: 50px;">Sản Phẩm Website </h1>
+
+                <div class="row">
+                    <div id="product-slide" class="products owl-carousel owl-theme">
+                        @foreach (var item in Model)
+                        {
+                            var strImage = "";
+                            var img = item.ProductImage.FirstOrDefault(x => x.IsDefault);
+                            if (img != null)
+                            {
+                                strImage = img.Image;
+                                <div class="item">
+                                    <div class="card" style="width: 18rem;">
+                                        <img src="@strImage"
+                                             class="card-img-top" />
+                                        <div class="card-body">
+                                            <h5 class="card-title">@item.Title</h5>
+                                            <p class="card-text">
+                                               @item.Description
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            }
+                        }
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</section>
+
+<script>
+        $(document).ready(function () {
+
+            $("#product-slide").owlCarousel({
+                loop: true,
+                items: 1,
+                smartSpeed: 450,
+                autoplay: 2000,
+                smartSpeed: 1000,
+                margin: 30,
+                responsive: {
+                    0: {
+                        nav: false,
+                        items: 1
+                    },
+                    600: {
+                        nav: false,
+                        items: 2
+                    },
+                    768: {
+                        nav: false,
+                        items: 2
+                    },
+                    1000: {
+                        nav: false,
+                        items: 4
+                    }
+                }
+            });
+
+
+        });
+
+        var btn = document.getElementById("navbar");
+        var btns = document.getElementsByClassName("lk");
+        for (var i = 0; i < btns.length; i++) {
+            btns[i].addEventListener('click', function () {
+                var current = document.getElementsByClassName("active");
+                current[0].className = current[0].className.replace("active")
+                this.className += " active"
+            })
+        }
+
+</script>
